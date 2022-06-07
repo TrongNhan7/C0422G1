@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4112120c-be24-4eda-8605-12ecef866fa6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Bai_tap_tu_giai/QuanLySach.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Exercise/Array/sdasd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/BirdayCakeCandles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/CompareTheTriplets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/DiagonalDifference.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/MiniMaxSum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/PlusMinus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/TimeConversion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/bai1_solveMeFirst.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/bai2_simpleArrSum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/Hacker_rank/staircase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/ss17_lap_trinh_huong_doi_tuong_2/CongTacBongDen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_1/tam_giac_can.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_1/tam_giac_can_rong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_1/ve_hinh_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_1/ve_hinh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_2/KiemTraNguyenAm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai3_tim_phan_so_lon_nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai4_nhapSoRaChu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai_5_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_3/bai_5_menu_c2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_4_string/bai1_VietHamCHuanHoaXauKyTu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_4_string/bai2_timKyTuKhacNhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_4_string/bai3_timKyTuChung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_5/bai1_HamTinhTongCácoChan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_5/bai2_LietKeSoNguyenTo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_5/bai3_timMinMax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_6/QuanLySanPamOop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_6/XoSoChuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_6/demoVeXo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_6/veXoOnline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_6/ádsad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Module 1/study_case/yeu_cau_7/xaydunghinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_introduction_to_java/NumberString/src/NumberToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_introduction_to_java/system-time/src/SystemTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss1_introduction_to_java/variable-dataType/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss2_Introduction_to_java/interest-caculator/interest-caculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss2_Introduction_to_java/show-primes-less-than-100/show-primes-less-than-100.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss2_Introduction_to_java/show-types/show-types.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 1/ss11_cau_truc_lap_2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Module 1/ss11_cau_truc_lap_2/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Module 1/ss16_lap_trinh_huong_doi_tuong/ádasdasds.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="29gLcJ7Y8RRzYolsT3l9G1NvWdG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.Main" />
+      <module name="ss4_OOP" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4112120c-be24-4eda-8605-12ecef866fa6" name="Default Changelist" comment="" />
+      <created>1653529859527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653529859527</updated>
+      <workItem from="1653529863940" duration="1022000" />
+      <workItem from="1653546122507" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="545" y="162" key="FileChooserDialogImpl" timestamp="1653546213949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653546213949" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1653531717702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1653531717702" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1653531717702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1653531717702" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1653531717702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1653531717702" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1653531717702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1653531717702" />
+    <state x="205" y="41" key="new project wizard" timestamp="1653546245436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="205" y="41" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1653546245436" />
+  </component>
+</project>

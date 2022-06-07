@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/NumberString/NumberString.iml" filepath="$PROJECT_DIR$/NumberString/NumberString.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bmi-calculator/bmi-calculator.iml" filepath="$PROJECT_DIR$/bmi-calculator/bmi-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day-of-month/day-of-month.iml" filepath="$PROJECT_DIR$/day-of-month/day-of-month.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leap-year-calculator/leap-year-calculator.iml" filepath="$PROJECT_DIR$/leap-year-calculator/leap-year-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/linear-equation-resolver/linear-equation-resolver.iml" filepath="$PROJECT_DIR$/linear-equation-resolver/linear-equation-resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nháp/nháp.iml" filepath="$PROJECT_DIR$/nháp/nháp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/number-into-words/number-into-words.iml" filepath="$PROJECT_DIR$/number-into-words/number-into-words.iml" />
+      <module fileurl="file://$PROJECT_DIR$/operator-expression/operator-expression.iml" filepath="$PROJECT_DIR$/operator-expression/operator-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/show-greetings/show-greetings.iml" filepath="$PROJECT_DIR$/show-greetings/show-greetings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ss1_introduction_to_java.iml" filepath="$PROJECT_DIR$/.idea/ss1_introduction_to_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/system-time/system-time.iml" filepath="$PROJECT_DIR$/system-time/system-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/variable-dataType/variable-dataType.iml" filepath="$PROJECT_DIR$/variable-dataType/variable-dataType.iml" />
+    </modules>
+  </component>
+</project>
