@@ -1,64 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="18feeb50-d30d-4ddc-ac92-cc7e368c57d8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/convert-currency/convert-currency.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/number-into-words/number-into-words.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/show-greetings/show-greetings.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/bmi-calculator/bmi-calculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/day-of-month/day-of-month.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/leap-year-calculator/leap-year-calculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/linear-equation-resolver/linear-equation-resolver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/operator-expression/operator-expression.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/system-time/system-time.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/variable-dataType/variable-dataType.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-20-firt-prime/show-20-firt-prime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-primes-less-than-100/show-primes-less-than-100.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-types/show-types.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/drawing-menu/drawing-menu.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/greate-common-factor/greate-common-factor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/interest-caculator/interest-caculator.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/is-prime/is-prime.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/add-element-array/add-element-array.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/conver/conver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/count-char-in-string/count-char-in-string.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/count-student/count-student.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/delete-element/delete-element.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/find-element-in-array/find-element-in-array.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/find-max-2-dimensional-array/find-max-2-dimensional-array.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/find-max-element/find-max-element.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/find-min-aray/find-min-aray.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/find-minimum/find-minimum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/merge-array/merge-array.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/reverse-array/reverse-array.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/sum-of-main-di/sum-of-main-di.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3_array_to_java/sum-the-number-is-colum/sum-the-number-is-colum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_OOP/class-QuadraticEquation/class-QuadraticEquation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_OOP/class-fan/class-fan.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4_OOP/stop-watch/stop-watch.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_access-modifier/access-modifier-2/access-modifier-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5_access-modifier/access-modifier/access-modifier.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_Inheritance/P2D-P3D/P2D-P3D.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_Inheritance/class-circle-and-class-cylinder/class-circle-and-class-cylinder.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_Inheritance/geometry/geometry.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_Inheritance/point-moveablePoint/point-moveablePoint.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_Inheritance/triangle/triangle.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Colorable/Colorable.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Resizeable/Resizeable.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparable/Comparable.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparator-2/Comparator-2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/animal-class-and-interface-edible/animal-class-and-interface-edible.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/untitled/untitled.iml" beforeDir="false" />
+    <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module_2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_menthod/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_menthod/CylinderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzzTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/module_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2AEsz0GnczG61bJhwBIQrdtncc9" />
+  <component name="ProjectId" id="2AEvcje8kLbnfO85Trg2AGAOKmW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,35 +58,106 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422G1-NguyenBaTrongNhan/Module 2/ss4_OOP/class-QuadraticEquation/src/com/codegym/Main.java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.FizzBuzz">
+    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.FizzBuzz" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable" />
+      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.FizzBuzzTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FizzBuzz" />
+        <item itemvalue="JUnit.FizzBuzzTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="18feeb50-d30d-4ddc-ac92-cc7e368c57d8" name="Default Changelist" comment="" />
-      <created>1654586337481</created>
+      <changelist id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="" />
+      <created>1654587640653</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1654586337481</updated>
-      <workItem from="1654586338687" duration="63000" />
+      <updated>1654587640653</updated>
+      <workItem from="1654587642929" duration="5938000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1654586398955">
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1654592589752">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654586398955" />
-    <state x="209" y="33" key="new project wizard" timestamp="1654586401456">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654592589752" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654592839713">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1654586401456" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654592839713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654592839713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654592839713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
+    <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue/0.0.1536.824@0.0.1536.824" timestamp="1654593476297" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1654590817487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1654590817487" />
   </component>
 </project>
