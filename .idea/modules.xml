@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Colorable/Colorable.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Colorable/Colorable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparable/Comparable.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparable/Comparable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparator-2/Comparator-2.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/Comparator-2/Comparator-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/P2D-P3D/P2D-P3D.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/P2D-P3D/P2D-P3D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Resizeable/Resizeable.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/Resizeable/Resizeable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss5_access-modifier/access-modifier/access-modifier.iml" filepath="$PROJECT_DIR$/ss5_access-modifier/access-modifier/access-modifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss5_access-modifier/access-modifier-2/access-modifier-2.iml" filepath="$PROJECT_DIR$/ss5_access-modifier/access-modifier-2/access-modifier-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/add-element-array/add-element-array.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/add-element-array/add-element-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/animal-class-and-interface-edible/animal-class-and-interface-edible.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/animal-class-and-interface-edible/animal-class-and-interface-edible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/bmi-calculator/bmi-calculator.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/bmi-calculator/bmi-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss4_OOP/class-QuadraticEquation/class-QuadraticEquation.iml" filepath="$PROJECT_DIR$/ss4_OOP/class-QuadraticEquation/class-QuadraticEquation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/class-circle-and-class-cylinder/class-circle-and-class-cylinder.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/class-circle-and-class-cylinder/class-circle-and-class-cylinder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss4_OOP/class-fan/class-fan.iml" filepath="$PROJECT_DIR$/ss4_OOP/class-fan/class-fan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/conver/conver.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/conver/conver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/convert-currency/convert-currency.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/convert-currency/convert-currency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/count-char-in-string/count-char-in-string.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/count-char-in-string/count-char-in-string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/count-student/count-student.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/count-student/count-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/day-of-month/day-of-month.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/day-of-month/day-of-month.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/delete-element/delete-element.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/delete-element/delete-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/drawing-menu/drawing-menu.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/drawing-menu/drawing-menu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/find-element-in-array/find-element-in-array.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/find-element-in-array/find-element-in-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/find-max-2-dimensional-array/find-max-2-dimensional-array.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/find-max-2-dimensional-array/find-max-2-dimensional-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/find-max-element/find-max-element.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/find-max-element/find-max-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/find-min-aray/find-min-aray.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/find-min-aray/find-min-aray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/find-minimum/find-minimum.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/find-minimum/find-minimum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/geometry/geometry.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/geometry/geometry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/greate-common-factor/greate-common-factor.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/greate-common-factor/greate-common-factor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/interest-caculator/interest-caculator.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/interest-caculator/interest-caculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/is-prime/is-prime.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/thuc_hanh/is-prime/is-prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/leap-year-calculator/leap-year-calculator.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/leap-year-calculator/leap-year-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/linear-equation-resolver/linear-equation-resolver.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/linear-equation-resolver/linear-equation-resolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/merge-array/merge-array.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/merge-array/merge-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/module_2.iml" filepath="$PROJECT_DIR$/.idea/module_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/number-into-words/number-into-words.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/number-into-words/number-into-words.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/operator-expression/operator-expression.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/operator-expression/operator-expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/point-moveablePoint/point-moveablePoint.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/point-moveablePoint/point-moveablePoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss4_OOP/rectangle/rectangle.iml" filepath="$PROJECT_DIR$/ss4_OOP/rectangle/rectangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/reverse-array/reverse-array.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/reverse-array/reverse-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-20-firt-prime/show-20-firt-prime.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-20-firt-prime/show-20-firt-prime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/show-greetings/show-greetings.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/bai_tap/show-greetings/show-greetings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-primes-less-than-100/show-primes-less-than-100.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-primes-less-than-100/show-primes-less-than-100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-types/show-types.iml" filepath="$PROJECT_DIR$/ss2_Introduction_to_java/bai_tap/show-types/show-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss4_OOP/stop-watch/stop-watch.iml" filepath="$PROJECT_DIR$/ss4_OOP/stop-watch/stop-watch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/sum-of-main-di/sum-of-main-di.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/sum-of-main-di/sum-of-main-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss3_array_to_java/sum-the-number-is-colum/sum-the-number-is-colum.iml" filepath="$PROJECT_DIR$/ss3_array_to_java/sum-the-number-is-colum/sum-the-number-is-colum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/system-time/system-time.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/system-time/system-time.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/triangle/triangle.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/triangle/triangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/untitled/untitled.iml" filepath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/thuc_hanh/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss6_Inheritance/untitled/untitled1.iml" filepath="$PROJECT_DIR$/ss6_Inheritance/untitled/untitled1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/variable-dataType/variable-dataType.iml" filepath="$PROJECT_DIR$/ss1_introduction_to_java/thuc_hanh/variable-dataType/variable-dataType.iml" />
+    </modules>
+  </component>
+</project>
