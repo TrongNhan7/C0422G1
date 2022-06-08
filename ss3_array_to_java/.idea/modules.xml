@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/add-element-array/add-element-array.iml" filepath="$PROJECT_DIR$/add-element-array/add-element-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/conver/conver.iml" filepath="$PROJECT_DIR$/conver/conver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/count-char-in-string/count-char-in-string.iml" filepath="$PROJECT_DIR$/count-char-in-string/count-char-in-string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/count-student/count-student.iml" filepath="$PROJECT_DIR$/count-student/count-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/delete-element/delete-element.iml" filepath="$PROJECT_DIR$/delete-element/delete-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-element-in-array/find-element-in-array.iml" filepath="$PROJECT_DIR$/find-element-in-array/find-element-in-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-max-2-dimensional-array/find-max-2-dimensional-array.iml" filepath="$PROJECT_DIR$/find-max-2-dimensional-array/find-max-2-dimensional-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-max-element/find-max-element.iml" filepath="$PROJECT_DIR$/find-max-element/find-max-element.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-min-aray/find-min-aray.iml" filepath="$PROJECT_DIR$/find-min-aray/find-min-aray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/find-minimum/find-minimum.iml" filepath="$PROJECT_DIR$/find-minimum/find-minimum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/merge-array/merge-array.iml" filepath="$PROJECT_DIR$/merge-array/merge-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse-array/reverse-array.iml" filepath="$PROJECT_DIR$/reverse-array/reverse-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ss3_array_to_java.iml" filepath="$PROJECT_DIR$/.idea/ss3_array_to_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sum-of-main-di/sum-of-main-di.iml" filepath="$PROJECT_DIR$/sum-of-main-di/sum-of-main-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sum-the-number-is-colum/sum-the-number-is-colum.iml" filepath="$PROJECT_DIR$/sum-the-number-is-colum/sum-the-number-is-colum.iml" />
+    </modules>
+  </component>
+</project>

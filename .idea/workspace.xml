@@ -20,17 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_menthod/Cylinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_menthod/CylinderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422G1-NguyenBaTrongNhan/Module 2/ss4_OOP/class-QuadraticEquation/src/com/codegym/Main.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422G1-NguyenBaTrongNhan/Module 2/ss3_array_to_java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -112,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1654587640653</updated>
-      <workItem from="1654587642929" duration="5938000" />
+      <workItem from="1654587642929" duration="5939000" />
+      <workItem from="1654650393464" duration="537000" />
     </task>
     <servers />
   </component>
@@ -129,28 +119,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1654592589752">
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1654650933009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654592589752" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654592839713">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654650933009" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654597049052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654592839713">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654597049052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654592839713">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654597049051">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654592839713">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654597049051" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654597049052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654592839713" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
     <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
