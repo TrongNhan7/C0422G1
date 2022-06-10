@@ -20,7 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/arraylist/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/arraylist/Mylist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/TestLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/Linked/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/Linked/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/class_list/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/class_list/MyListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss1_introduction_to_java/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +61,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422G1-NguyenBaTrongNhan/Module 2/ss3_array_to_java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../C0422G1-NguyenBaTrongNhan/Module 2/ss4_OOP" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.TestLinkedList">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.FizzBuzz" />
       <module name="module_2" />
@@ -69,25 +80,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.bai_tap.arraylist.MyListTest" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.*" />
+          <option name="PATTERN" value="ss10_dsa_danh_sach.bai_tap.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable" />
-      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.thuc_hanh.class_list.MyListTest" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_dsa_danh_sach.thuc_hanh.class_list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.bai_tap.linkedList.TestLinkedList" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_dsa_danh_sach.bai_tap.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.thuc_hanh.Linked.TestMyLinkedList" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss10_dsa_danh_sach.thuc_hanh.Linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestLinkedList" />
+        <item itemvalue="Application.MyListTest (1)" />
+        <item itemvalue="Application.MyListTest" />
+        <item itemvalue="Application.TestMyLinkedList" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="JUnit.FizzBuzzTest" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +154,12 @@
       <updated>1654587640653</updated>
       <workItem from="1654587642929" duration="5939000" />
       <workItem from="1654650393464" duration="537000" />
+      <workItem from="1654671899290" duration="11336000" />
+      <workItem from="1654685441475" duration="824000" />
+      <workItem from="1654738381311" duration="12480000" />
+      <workItem from="1654771714099" duration="13047000" />
+      <workItem from="1654832641192" duration="26000" />
+      <workItem from="1654832782853" duration="20000" />
     </task>
     <servers />
   </component>
@@ -122,26 +179,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1654650933009">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1654778222291">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654650933009" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654597049052">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1654778222291" />
+    <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1654685771052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654597049052">
+    <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1654685771052" />
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1654832801999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654597049051">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654832801999" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654789734956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654597049051" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654597049052">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654789734956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654597049052" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654789734956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654789734956">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
     <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -150,5 +215,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1654590817487" />
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1654685695424">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1654685695424" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654775895873">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654775895873" />
   </component>
 </project>
