@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94674306-79fa-4a07-b3e6-6897ce79f2d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/ss11_dsa_stack_queue/optional/bai_tap/covert_decimal_to_binary/DecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_queue_array/MyQueueArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_queue_array/QueueClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_stack_array/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_stack_array/StackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="29uQv11ZUfCZ8j0WiN7rAbJXmdp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.codegym.Main" />
+      <module name="ss5_access-modifier" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94674306-79fa-4a07-b3e6-6897ce79f2d4" name="Default Changelist" comment="" />
+      <created>1653960717525</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653960717525</updated>
+      <workItem from="1653960720663" duration="113000" />
+      <workItem from="1655095070540" duration="165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="545" y="162" key="FileChooserDialogImpl" timestamp="1653960830774">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="545" y="162" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653960830774" />
+    <state x="205" y="41" key="new project wizard" timestamp="1653960833068">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="205" y="41" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1653960833068" />
+  </component>
+</project>
