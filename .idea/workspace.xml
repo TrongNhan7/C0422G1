@@ -20,18 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/arraylist/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/arraylist/Mylist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/bai_tap/linkedList/TestLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/Linked/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/Linked/TestMyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/class_list/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/thuc_hanh/class_list/MyListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/circular_queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/circular_queue/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/circular_queue/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/reverse_element/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/reverse_element/MainChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/reverse_element/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/reverse_element/StackString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/thuc_hanh/deloy_stack_using_linkedlist/GenericStackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/thuc_hanh/deloy_stack_using_linkedlist/MyGenericStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/thuc_hanh/refactoring_split_variable/FizzBuzz.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1_introduction_to_java/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss1_introduction_to_java/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss4_OOP/class-QuadraticEquation/src/com/codegym/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss4_OOP/class-QuadraticEquation/src/com/codegym/QuadraticEquation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +65,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.TestLinkedList">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.FizzBuzz" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.thuc_hanh.deloy_stack_using_linkedlist.GenericStackClient" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss8_clean_code_and_refactoring.thuc_hanh.refactoring_split_variable.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.thuc_hanh.deloy_stack_using_linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.bai_tap.arraylist.MyListTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.reverse_element.Main" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_dsa_danh_sach.bai_tap.arraylist.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.reverse_element.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.thuc_hanh.class_list.MyListTest" />
+    <configuration name="MainChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.reverse_element.MainChar" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10_dsa_danh_sach.thuc_hanh.class_list.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.reverse_element.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.circular_queue.Solution" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.circular_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10_dsa_danh_sach.thuc_hanh.Linked.TestMyLinkedList" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss10_dsa_danh_sach.thuc_hanh.Linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.MainChar" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GenericStackClient" />
         <item itemvalue="Application.TestLinkedList" />
-        <item itemvalue="Application.MyListTest (1)" />
-        <item itemvalue="Application.MyListTest" />
-        <item itemvalue="Application.TestMyLinkedList" />
-        <item itemvalue="Application.FizzBuzz" />
       </list>
     </recent_temporary>
   </component>
@@ -160,6 +159,10 @@
       <workItem from="1654771714099" duration="13047000" />
       <workItem from="1654832641192" duration="26000" />
       <workItem from="1654832782853" duration="20000" />
+      <workItem from="1654912329493" duration="3551000" />
+      <workItem from="1654997301560" duration="3514000" />
+      <workItem from="1655000864917" duration="7329000" />
+      <workItem from="1655082426887" duration="76000" />
     </task>
     <servers />
   </component>
@@ -179,10 +182,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1654778222291">
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1654998144886">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1654778222291" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1654998144886" />
     <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1654685771052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,22 +194,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654832801999" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1654789734956">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1655008617659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1654789734956">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1655008617659" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1655008617658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1654789734956">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1655008617658" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1655008617658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1654789734956">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1655008617658" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1655008617658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1654789734956" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1655008617658" />
     <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -215,10 +218,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1654590817487" />
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1654685695424">
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1655000457041">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1654685695424" />
+    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1655000457041" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654775895873">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
