@@ -35,14 +35,17 @@ public class Run {
                 case 3:
                     // code xóa
                     System.out.println("chức năng xóa");
+                    studentManager.deleteStudent();
                     break;
                 case 4:
                     // code sửa
                     System.out.println("chức năng sửa");
+                    studentManager.fixStudent();
                     break;
                 case 5:
                     // code tìm kiếm
                     System.out.println("chức năng tìm kiếm");
+                    studentManager.search();
                     break;
                 default:
                     flag=false;

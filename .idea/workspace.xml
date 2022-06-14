@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/bai_tap/covert_decimal_to_binary/DecimalToBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_queue_array/MyQueueArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_queue_array/QueueClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_stack_array/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/thuc_hanh/implement_stack_array/StackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/bai_tap/check_bracket/CheckBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/optional/bai_tap/palindrome/PalindromeQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss11_dsa_stack_queue/optional/bai_tap/covert_decimal_to_binary/DecimalToBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss11_dsa_stack_queue/optional/bai_tap/covert_decimal_to_binary/DecimalToBinary.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,12 +53,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss5_access-modifier" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss5_access-modifier/ss5_demo_static_access_modifer" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.DecimalToBinary">
+  <component name="RunManager" selected="Application.CheckBracket">
+    <configuration name="CheckBracket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.optional.bai_tap.check_bracket.CheckBracket" />
+      <module name="module_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss11_dsa_stack_queue.optional.bai_tap.check_bracket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DecimalToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.optional.bai_tap.covert_decimal_to_binary.DecimalToBinary" />
       <module name="module_2" />
@@ -74,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.reverse_element.MainChar" />
+    <configuration name="PalindromeQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.optional.bai_tap.palindrome.PalindromeQueue" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.reverse_element.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.optional.bai_tap.palindrome.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,19 +104,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss11_dsa_stack_queue.optional.thuc_hanh.implement_queue_array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.circular_queue.Solution" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.circular_queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckBracket" />
+        <item itemvalue="Application.PalindromeQueue" />
         <item itemvalue="Application.DecimalToBinary" />
         <item itemvalue="Application.StackClient" />
         <item itemvalue="Application.QueueClient" />
-        <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.MainChar" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +157,8 @@
       <workItem from="1655000864917" duration="7329000" />
       <workItem from="1655082426887" duration="76000" />
       <workItem from="1655091613975" duration="2955000" />
-      <workItem from="1655094609330" duration="712000" />
+      <workItem from="1655094609330" duration="13750000" />
+      <workItem from="1655117140657" duration="129000" />
     </task>
     <servers />
   </component>
@@ -187,26 +186,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1654685771052" />
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1655095067765">
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1655117269415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655095067765" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1655094823427">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655117269414" />
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1655115629192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1655094823427" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1655094823427">
+    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1655115629192" />
+    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1655115629192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1655094823427" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1655094823427">
+    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1655115629192" />
+    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1655115629192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1655094823427" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1655094823427">
+    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1655115629192" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1655115629192">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1655094823427" />
+    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1655115629192" />
     <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
