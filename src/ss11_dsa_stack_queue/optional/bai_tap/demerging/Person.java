@@ -1,8 +1,6 @@
-package optional.bai_tap.demerging;
+package ss11_dsa_stack_queue.optional.bai_tap.demerging;
 
 import java.time.LocalDate;
-import java.util.Date;
-
 
 public class Person implements Comparable<Person> {
     private String fullName;
@@ -10,7 +8,6 @@ public class Person implements Comparable<Person> {
     private LocalDate birthDate;
 
     public Person() {
-
     }
 
     public Person(String fullName, boolean isMale, LocalDate birthDate) {
@@ -20,7 +17,7 @@ public class Person implements Comparable<Person> {
     }
 
     public String getFullName() {
-        return fullName;
+        return this.fullName;
     }
 
     public void setFullName(String fullName) {
@@ -28,11 +25,11 @@ public class Person implements Comparable<Person> {
     }
 
     public boolean isMale() {
-        return isMale;
+        return this.isMale;
     }
 
     public void setMale(boolean male) {
-        isMale = male;
+        this.isMale = male;
     }
 
     public String getGender() {
@@ -40,31 +37,19 @@ public class Person implements Comparable<Person> {
     }
 
     public LocalDate getBirthDate() {
-        return birthDate;
+        return this.birthDate;
     }
 
     public void setBirthDate(LocalDate birthDate) {
         this.birthDate = birthDate;
     }
 
-    @Override
     public String toString() {
-        return "Person{" +
-                "fullName='" + fullName + '\'' +
-                ", isMale=" + isMale +
-                ", birthDate=" + birthDate +
-                '}';
+        return "Person{fullName='" + this.fullName + '\'' + ", isMale=" + this.isMale + ", birthDate=" + this.birthDate + '}';
     }
 
-    @Override
     public int compareTo(Person o) {
-        int diffBirthday = this.getBirthDate().compareTo(o.getBirthDate());
-        if (diffBirthday != 0) {
-            return diffBirthday;
-        }
-        if (this.getGender().equals("Female")) {
-            return 1;
-        }
-        return -1;
+        int diffGender = this.getGender().compareTo(o.getGender());
+        return diffGender != 0 ? diffGender : this.getBirthDate().compareTo(o.getBirthDate());
     }
 }
