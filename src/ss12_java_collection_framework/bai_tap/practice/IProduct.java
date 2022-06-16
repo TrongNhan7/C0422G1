@@ -11,5 +11,5 @@ public interface IProduct {
 
     void search();
 
-    void sort();
+    void sort(boolean a);
 }
