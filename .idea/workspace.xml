@@ -20,19 +20,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/PriceCompartor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer/ss5_static_access_modifer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/demo_vehicle_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/asdas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/CarController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/IVehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/ManufactureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/MotoBikeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/TruckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/Manufacture/Manufacture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Motobike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/view/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/.idea/out.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss10_dsa_danh_sach/ss10_dsa_danh_sach.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/out/production/ss12_java_collection_framework/ss12_java_collection_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/ss12_java_collection_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/bai_tap/.idea/bai_tap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/ss8_clean_code_and_refactoring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/ss10_dsa_danh_sach.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/count_string/CountString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/BinarySearchRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/FindMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/FindMaxConsecutively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/bai_tap/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/bai_tap/InsertionSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_debug/bai_tap/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ArrayExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/CalculationExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vehicle_manager/vehicle_manager.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/ProductManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_abstractClass_&amp;_interface/bai_tap/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +88,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2AEvcje8kLbnfO85Trg2AGAOKmW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,24 +98,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ss5_access-modifier/New folder/ss5_static_access_modifer" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.thuc_hanh.Arr" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/CodeGym/CODEGYM/module_2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.CountString">
+    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_debug.thuc_hanh.ArrayExample" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_java_collection_framework.thuc_hanh.*" />
+          <option name="PATTERN" value="ss15_debug.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demerging (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.optional.bai_tap.demerging.Demerging" />
+    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_debug.thuc_hanh.CalculationExample" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.optional.bai_tap.demerging.*" />
+          <option name="PATTERN" value="ss15_debug.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.thuc_hanh.sort_with_comparable_Comparator.Main" />
+    <configuration name="CountString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.count_string.CountString" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_java_collection_framework.thuc_hanh.sort_with_comparable_Comparator.*" />
+          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.count_string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.bai_tap.practice.Main" />
+    <configuration name="ThucHanh1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_debug.thuc_hanh.ThucHanh1" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_java_collection_framework.bai_tap.practice.*" />
+          <option name="PATTERN" value="ss15_debug.thuc_hanh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12_java_collection_framework.bai_tap.practice.ProductManager" />
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15_debug.bai_tap.Triangle" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss12_java_collection_framework.bai_tap.practice.*" />
+          <option name="PATTERN" value="ss15_debug.bai_tap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,14 +174,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Arr" />
-        <item itemvalue="Application.ProductManager" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Demerging (1)" />
+        <item itemvalue="Application.CountString" />
+        <item itemvalue="Application.Triangle" />
+        <item itemvalue="Application.CalculationExample" />
+        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.ThucHanh1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -172,11 +211,20 @@
       <workItem from="1655263921959" duration="4663000" />
       <workItem from="1655274716333" duration="10577000" />
       <workItem from="1655290363800" duration="5338000" />
+      <workItem from="1655428376583" duration="6500000" />
+      <workItem from="1655448379969" duration="4315000" />
+      <workItem from="1655454903948" duration="4707000" />
+      <workItem from="1655464298353" duration="2300000" />
+      <workItem from="1655468143578" duration="261000" />
+      <workItem from="1655620569017" duration="7266000" />
+      <workItem from="1655644487653" duration="4730000" />
+      <workItem from="1655698384717" duration="618000" />
+      <workItem from="1655708055782" duration="2276000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -188,56 +236,22 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1655295477045">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1655295477045" />
-    <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1654685771052">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="414" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1654685771052" />
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1655291315012">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655291315012" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1655296864753">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1655296864753" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1655296864753">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1655296864753" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1655296864753">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1655296864753" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1655296864753">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1655296864753" />
-    <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue" timestamp="1654593476297">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="189" width="438" height="484" key="RefactorJ.WrapReturnValue/0.0.1536.824@0.0.1536.824" timestamp="1654593476297" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1654590817487">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1654590817487" />
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog" timestamp="1655000457041">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="475" y="170" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1655000457041" />
-    <state x="425" y="189" key="run.anything.popup" timestamp="1655093830347">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1655093830347" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1654775895873">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1654775895873" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="a != 0" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

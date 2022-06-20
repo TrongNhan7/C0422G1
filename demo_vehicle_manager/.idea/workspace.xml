@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f80b33c6-ba24-4458-a5fc-e86f15ea9ca6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/ss13_search_algorithm/find_the_ascending/BinarySearchRecursive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss13_search_algorithm/find_the_ascending/FindMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss13_search_algorithm/find_the_ascending/FindMaxConsecutively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss14_sort_algorithm/bai_tap/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss14_sort_algorithm/bai_tap/InsertionSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss14_sort_algorithm/thuc_hanh/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss14_sort_algorithm/thuc_hanh/BubbleSortByStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/ss14_sort_algorithm/thuc_hanh/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2AmiqlZVkW2CcbhohGwZEZhU5OH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f80b33c6-ba24-4458-a5fc-e86f15ea9ca6" name="Default Changelist" comment="" />
+      <created>1655621353516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655621353516</updated>
+      <workItem from="1655621355000" duration="83000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="154" key="FileChooserDialogImpl" timestamp="1655621435320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655621435320" />
+    <state x="209" y="33" key="new project wizard" timestamp="1655621437244">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="33" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1655621437244" />
+  </component>
+</project>

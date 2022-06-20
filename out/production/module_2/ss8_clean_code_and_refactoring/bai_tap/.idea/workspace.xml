@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9dff692-ff04-432a-849e-ab47fb2dca4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/PriceCompartor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/PriceCompartor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss5_access-modifier/New folder/ss5_static_access_modifer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss5_access-modifier/New folder/ss5_static_access_modifer/ss5_static_access_modifer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/IProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss12_java_collection_framework/bai_tap/practice/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss7_abstractClass_&amp;_interface/bai_tap/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss7_abstractClass_&amp;_interface/bai_tap/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2AeFnaz65TIpm58JmBFUJP7vKGn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9dff692-ff04-432a-849e-ab47fb2dca4d" name="Default Changelist" comment="" />
+      <created>1655362311091</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655362311091</updated>
+      <workItem from="1655362312247" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1655362328375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655362328375" />
+  </component>
+</project>
