@@ -18,6 +18,7 @@ public class CheckBracket {
         for (int i = 0; i < str.length(); i++) {
             if (str.charAt(i) == '(') {
                 stack.push(str.charAt(i));
+                continue;
             } else if (str.charAt(i) == ')') {
                 if (stack.isEmpty()) {
                     flag = false;
