@@ -85,19 +85,18 @@ public abstract class Person {
 
     public String getData() {
         return getId() + "," + getName() + "," + getBirthday() + "," + getSex() +
-                "," + getIdCard() + "," + getPhone() + "," + getEmail() + ",";
+                "," + getIdCard() + "," + getPhone() + "," + getEmail();
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", birthday='" + birthday + '\'' +
                 ", sex=" + sex +
                 ", idCard=" + idCard +
                 ", phone='" + phone + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+                ", email='" + email + '\'' ;
     }
 }

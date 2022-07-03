@@ -20,57 +20,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4fb4581-2dcc-4f6e-97d7-7eb175f9f723" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/demo_vehicle_manager.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/asdas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/CarController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/IVehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/ManufactureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/MotoBikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/Controller/TruckController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/Manufacture/Manufacture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Motobike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Truck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/model/vehicle/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo_vehicle_manager/asdas/src/view/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/.idea/out.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss10_dsa_danh_sach/ss10_dsa_danh_sach.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/out/production/ss12_java_collection_framework/ss12_java_collection_framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/ss12_java_collection_framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/bai_tap/.idea/bai_tap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/module_2/ss8_clean_code_and_refactoring/ss8_clean_code_and_refactoring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10_dsa_danh_sach/ss10_dsa_danh_sach.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11_dsa_stack_queue/bai_tap/count_string/CountString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/BinarySearchRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13_search_algorithm/find_the_ascending/FindMaxConsecutively.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/bai_tap/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/bai_tap/InsertionSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/BubbleSortByStep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14_sort_algorithm/thuc_hanh/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_debug/bai_tap/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ArrayExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/CalculationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_manager/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vehicle_manager/vehicle_manager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Giaithuat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/data/Booking.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/data/Contract.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/data/Temp.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/util/AgeCheckingExeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/util/Format.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/case_study/util/ReadAndWrite2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/IProduct.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss12_java_collection_framework/bai_tap/practice/ProductManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12_java_collection_framework/bai_tap/practice/IProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/module_2/ss11_dsa_stack_queue/optional/bai_tap/check_bracket/CheckBracket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/module_2/ss11_dsa_stack_queue/optional/bai_tap/check_bracket/CheckBracket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/controller/FuramaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/controller/FuramaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/Customer.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/Customer.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/Employee.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/Employee.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/data/Facility" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/data/Facility" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/Person/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/Person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/booking/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/booking/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/booking/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/booking/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/facility/Facility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/facility/Facility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/facility/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/facility/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/facility/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/facility/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/models/facility/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/models/facility/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/IService/IBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/IService/IBookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/control/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/control/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/control/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/control/ContractServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/control/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/control/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/control/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/control/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/service/control/FacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/service/control/FacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/util/ReadandWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/util/ReadAndWrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/case_study/util/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/case_study/util/Regex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,16 +80,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/CodeGym/CODEGYM/module_2&quot;
+    &quot;last_opened_file_path&quot;: &quot;F:/CodeGym/CODEGYM/module_2&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountString">
-    <configuration name="ArrayExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_debug.thuc_hanh.ArrayExample" />
+  <component name="RunManager" selected="Application.MainFurama">
+    <configuration name="CrawlNews" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_and_regex.bai_tap.crawl_news.CrawlNews" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15_debug.thuc_hanh.*" />
+          <option name="PATTERN" value="ss19_string_and_regex.bai_tap.crawl_news.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_debug.thuc_hanh.CalculationExample" />
+    <configuration name="Giaithuat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Giaithuat" />
+      <module name="module_2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainFurama" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="case_study.view.MainFurama" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15_debug.thuc_hanh.*" />
+          <option name="PATTERN" value="case_study.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11_dsa_stack_queue.bai_tap.count_string.CountString" />
+    <configuration name="TelephoneNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss19_string_and_regex.validate_telephone.TelephoneNumberTest" />
       <module name="module_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11_dsa_stack_queue.bai_tap.count_string.*" />
+          <option name="PATTERN" value="ss19_string_and_regex.validate_telephone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,26 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15_debug.bai_tap.Triangle" />
-      <module name="module_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss15_debug.bai_tap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CountString" />
-        <item itemvalue="Application.Triangle" />
-        <item itemvalue="Application.CalculationExample" />
-        <item itemvalue="Application.ArrayExample" />
+        <item itemvalue="Application.MainFurama" />
+        <item itemvalue="Application.Giaithuat" />
+        <item itemvalue="Application.CrawlNews" />
         <item itemvalue="Application.ThucHanh1" />
+        <item itemvalue="Application.TelephoneNumberTest" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +194,38 @@
       <workItem from="1655620569017" duration="7266000" />
       <workItem from="1655644487653" duration="4730000" />
       <workItem from="1655698384717" duration="618000" />
-      <workItem from="1655708055782" duration="2276000" />
+      <workItem from="1655708055782" duration="6885000" />
+      <workItem from="1655859486291" duration="4009000" />
+      <workItem from="1655879147530" duration="6282000" />
+      <workItem from="1655888831411" duration="1608000" />
+      <workItem from="1655946884142" duration="8503000" />
+      <workItem from="1656033150885" duration="6003000" />
+      <workItem from="1656054413303" duration="10870000" />
+      <workItem from="1656121591549" duration="8923000" />
+      <workItem from="1656141652098" duration="9225000" />
+      <workItem from="1656249225226" duration="9109000" />
+      <workItem from="1656291711496" duration="1530000" />
+      <workItem from="1656299641301" duration="19362000" />
+      <workItem from="1656334716345" duration="3021000" />
+      <workItem from="1656378026298" duration="672000" />
+      <workItem from="1656379430924" duration="8915000" />
+      <workItem from="1656397377021" duration="11558000" />
+      <workItem from="1656418247626" duration="11614000" />
+      <workItem from="1656464235751" duration="629000" />
+      <workItem from="1656465040552" duration="20945000" />
+      <workItem from="1656502678854" duration="3260000" />
+      <workItem from="1656550189399" duration="3047000" />
+      <workItem from="1656558671630" duration="6099000" />
+      <workItem from="1656574653402" duration="8974000" />
+      <workItem from="1656639981169" duration="6164000" />
+      <workItem from="1656646204311" duration="3088000" />
+      <workItem from="1656659414129" duration="6294000" />
+      <workItem from="1656672268875" duration="4098000" />
+      <workItem from="1656676451019" duration="68000" />
+      <workItem from="1656676536118" duration="501000" />
+      <workItem from="1656677057748" duration="2396000" />
+      <workItem from="1656683862948" duration="4830000" />
+      <workItem from="1656755669619" duration="2370000" />
     </task>
     <servers />
   </component>
@@ -242,15 +248,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
+          <line>12</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <condition expression="a != 0" language="JAVA" />
+          <condition expression="a !=0" language="JAVA" />
           <url>file://$PROJECT_DIR$/src/ss15_debug/thuc_hanh/ThucHanh1.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="3" />
+          <line>15</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="13" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

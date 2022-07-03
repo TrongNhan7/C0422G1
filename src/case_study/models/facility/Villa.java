@@ -1,5 +1,7 @@
 package case_study.models.facility;
 
+import java.util.Objects;
+
 public class Villa extends Facility {
     private String standardRoom;
     private double areaPool;
@@ -45,22 +47,19 @@ public class Villa extends Facility {
         this.numberOfFloors = numberOfFloors;
     }
 
-    @Override
-    public int hashCode() {
-        return getIdFacility().hashCode();
-    }
-
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == null || !(obj instanceof Villa)) {
-            return false;
-        }
-        Villa villa = (Villa) obj;
-        return this.getIdFacility() == villa.getIdFacility();
-    }
 
     public String getData() {
         return super.getData() + getStandardRoom() + "," + getAreaPool() + "," + getNumberOfFloors()+ ",";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
+
+    @Override
+    public int hashCode() {
+        return super.hashCode();
     }
 
     @Override
@@ -71,4 +70,5 @@ public class Villa extends Facility {
                 ", numberOfFloors=" + numberOfFloors +
                 '}';
     }
+
 }

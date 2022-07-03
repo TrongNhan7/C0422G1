@@ -2,36 +2,38 @@ package case_study.models.booking;
 
 import case_study.models.Person.Customer;
 import case_study.models.facility.Facility;
+import case_study.util.Format;
 
 
 import java.time.LocalDate;
+import java.util.Objects;
 
 
 public class Booking {
-    private String idBooking;
+    private int idBooking;
     private LocalDate startDay;
     private LocalDate endDay;
     private Customer idCustomer;
-    private Facility serviceName;
+    private Facility idFacility;
     private String serviceType;
 
     public Booking() {
     }
 
-    public Booking(String idBooking, LocalDate startDay, LocalDate endDay, Customer idCustomer, Facility serviceName, String serviceType) {
+    public Booking(int idBooking, LocalDate startDay, LocalDate endDay, Customer idCustomer, Facility idFacility, String serviceType) {
         this.idBooking = idBooking;
         this.startDay = startDay;
         this.endDay = endDay;
         this.idCustomer = idCustomer;
-        this.serviceName = serviceName;
+        this.idFacility = idFacility;
         this.serviceType = serviceType;
     }
 
-    public String getIdBooking() {
+    public int getIdBooking() {
         return idBooking;
     }
 
-    public void setIdBooking(String idBooking) {
+    public void setIdBooking(int idBooking) {
         this.idBooking = idBooking;
     }
 
@@ -59,12 +61,12 @@ public class Booking {
         this.idCustomer = idCustomer;
     }
 
-    public Facility getServiceName() {
-        return serviceName;
+    public Facility getIdFacility() {
+        return idFacility;
     }
 
-    public void setServiceName(Facility serviceName) {
-        this.serviceName = serviceName;
+    public void setIdFacility(Facility idFacility) {
+        this.idFacility = idFacility;
     }
 
     public String getServiceType() {
@@ -77,7 +79,7 @@ public class Booking {
 
     @Override
     public int hashCode() {
-        return idBooking.hashCode();
+        return super.hashCode();
     }
 
     @Override
@@ -87,19 +89,25 @@ public class Booking {
         }
         Booking booking = (Booking) obj;
         return this.idBooking == booking.idBooking &&
-                this.idCustomer == booking.idCustomer &&
-                this.serviceName == booking.serviceName ;
+                Objects.equals(idFacility, booking.idFacility) &&
+                Objects.equals(serviceType, booking.serviceType) &&
+                Objects.equals(startDay, booking.startDay) &&
+                Objects.equals(endDay, booking.endDay);
     }
 
+    public String getData() {
+        return getIdBooking() + "," + getStartDay() + "," + getEndDay() +
+                "," + getIdCustomer().getId() + "," + getIdFacility().getIdFacility() + "," + getServiceType();
+    }
 
     @Override
     public String toString() {
         return "Booking{" +
                 "idBooking='" + idBooking + '\'' +
-                ", startDay=" + startDay +
-                ", endDay=" + endDay +
+                ", startDay=" + Format.getDateFormatter(startDay) +
+                ", endDay=" + Format.getDateFormatter(endDay) +
                 ", idCustomer=" + idCustomer.getId() +
-                ", serviceName=" + serviceName.getNameService() +
+                ", idFacility=" + idFacility.getIdFacility() +
                 ", serviceType='" + serviceType + '\'' +
                 '}';
     }

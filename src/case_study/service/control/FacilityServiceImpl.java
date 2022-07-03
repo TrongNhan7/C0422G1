@@ -6,7 +6,7 @@ import case_study.models.facility.House;
 import case_study.models.facility.Room;
 import case_study.models.facility.Villa;
 import case_study.service.IService.IFacilityService;
-import case_study.util.ReadandWrite;
+import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
 
 import java.util.LinkedHashMap;
@@ -16,12 +16,7 @@ import java.util.Scanner;
 public class FacilityServiceImpl implements IFacilityService {
     static Scanner scanner = new Scanner(System.in);
     public static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
-    static private Map<Facility, Integer> facilityMap;
 
-
-    static {
-        facilityMap = new LinkedHashMap<>();
-    }
 
     @Override
     public void addNew() {
@@ -54,7 +49,8 @@ public class FacilityServiceImpl implements IFacilityService {
 
     @Override
     public void displayFacilityCanUse() {
-        Map<Facility, Integer> facilityMap = ReadandWrite.readFile(PATH_FILE_FACILITY);
+
+        Map<Facility, Integer> facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
         for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
             if (entry.getValue() < 5) {
                 System.out.println(entry.getKey().toString() + "\ncó số lần đã thuê là " + entry.getValue() + " lần.");
@@ -64,7 +60,7 @@ public class FacilityServiceImpl implements IFacilityService {
 
     @Override
     public void displayFacilityMaintenance() {
-        Map<Facility, Integer> facilityMap = ReadandWrite.readFile(PATH_FILE_FACILITY);
+        Map<Facility, Integer> facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
         for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
             if (entry.getValue() >= 5) {
                 System.out.println(entry.getKey().toString() + "\ncó số" + entry.getValue() + " lần thuê.Đang bảo trì hệ thống!");
@@ -73,7 +69,25 @@ public class FacilityServiceImpl implements IFacilityService {
     }
 
     private void addVilla() {
+        Map<Facility, Integer> facilityMap;
         String id = Regex.inputIdVilla();
+        facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
+        boolean flag = true;
+        do {
+            if (facilityMap.isEmpty()) {
+                break;
+            }
+            for (Facility key : facilityMap.keySet()) {
+                if (!(key.getIdFacility().equalsIgnoreCase(id))) {
+                    flag = false;
+                }
+            }
+            if (flag) {
+                System.out.println("Id mã dịch vụ bị trùng vui lòng nhập lại:");
+                id = Regex.inputIdVilla();
+            }
+        } while (flag);
+        facilityMap.clear();
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -83,12 +97,30 @@ public class FacilityServiceImpl implements IFacilityService {
         double areaPool = Double.parseDouble(Regex.inputPool());
         int floor = Integer.parseInt(Regex.inputFloors());
         facilityMap.put(new Villa(id, name, area, rentalCosts, people, rentalType, standard, areaPool, floor), 0);
-        ReadandWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
         System.out.println("Đã thêm mới house thành công");
     }
 
     private void addHouse() {
+        Map<Facility, Integer> facilityMap = new LinkedHashMap<>();
         String id = Regex.inputIdHouse();
+        facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
+        boolean flag = true;
+        do {
+            if (facilityMap.isEmpty()) {
+                break;
+            }
+            for (Facility key : facilityMap.keySet()) {
+                if (!(key.getIdFacility().equalsIgnoreCase(id))) {
+                    flag = false;
+                }
+            }
+            if (flag) {
+                System.out.println("Id mã dịch vụ bị trùng vui lòng nhập lại:");
+                id = Regex.inputIdHouse();
+            }
+        } while (flag);
+        facilityMap.clear();
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -97,12 +129,30 @@ public class FacilityServiceImpl implements IFacilityService {
         String standard = Regex.inputStandard();
         int floor = Integer.parseInt(Regex.inputFloors());
         facilityMap.put(new House(id, name, area, rentalCosts, people, rentalType, standard, floor), 0);
-        ReadandWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
         System.out.println("Đã thêm mới house thành công");
     }
 
     private void addRoom() {
+        Map<Facility, Integer> facilityMap = new LinkedHashMap<>();
         String id = Regex.inputIdRoom();
+        facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
+        boolean flag = true;
+        do {
+            if (facilityMap.isEmpty()) {
+                break;
+            }
+            for (Facility key : facilityMap.keySet()) {
+                if (!(key.getIdFacility().equalsIgnoreCase(id))) {
+                    flag = false;
+                }
+            }
+            if (flag) {
+                System.out.println("Id mã dịch vụ bị trùng vui lòng nhập lại:");
+                id = Regex.inputIdHouse();
+            }
+        } while (flag);
+        facilityMap.clear();
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -110,7 +160,7 @@ public class FacilityServiceImpl implements IFacilityService {
         String rentalType = Regex.inputRentalType();
         String serviceFree = Regex.inputServiceFree();
         facilityMap.put(new Room(id, name, area, rentalCosts, people, rentalType, serviceFree), 0);
-        ReadandWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
         System.out.println("Đã thêm mới house thành công");
     }
 }

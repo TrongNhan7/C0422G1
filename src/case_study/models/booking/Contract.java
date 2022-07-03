@@ -3,7 +3,7 @@ package case_study.models.booking;
 import case_study.models.Person.Customer;
 
 public class Contract {
-    private Integer idContract;
+    private int idContract;
     private Booking idBooking;
     private double depositMoney;
     private double payments;
@@ -12,7 +12,7 @@ public class Contract {
     public Contract() {
     }
 
-    public Contract(Integer idContract, Booking idBooking, double depositMoney, double payments, Customer idCustomer) {
+    public Contract(int idContract, Booking idBooking, double depositMoney, double payments, Customer idCustomer) {
         this.idContract = idContract;
         this.idBooking = idBooking;
         this.depositMoney = depositMoney;
@@ -20,11 +20,11 @@ public class Contract {
         this.idCustomer = idCustomer;
     }
 
-    public Integer getIdContract() {
+    public int getIdContract() {
         return idContract;
     }
 
-    public void setIdContract(Integer idContract) {
+    public void setIdContract(int idContract) {
         this.idContract = idContract;
     }
 
@@ -58,6 +58,11 @@ public class Contract {
 
     public void setIdCustomer(Customer idCustomer) {
         this.idCustomer = idCustomer;
+    }
+
+    public String getData() {
+        return getIdContract() + "," + getIdBooking().getIdBooking() + "," + getDepositMoney() +
+                "," + getPayments() + "," + getIdCustomer().getId();
     }
 
     @Override

@@ -24,17 +24,13 @@ public class Room extends Facility {
     }
 
     @Override
-    public int hashCode() {
-        return getIdFacility().hashCode();
+    public boolean equals(Object o) {
+        return super.equals(o);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null || !(obj instanceof Room)) {
-            return false;
-        }
-        Room room = (Room) obj;
-        return this.getIdFacility() == room.getIdFacility();
+    public int hashCode() {
+        return super.hashCode();
     }
 
     public String getData() {

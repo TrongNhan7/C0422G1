@@ -1,5 +1,7 @@
 package case_study.models.facility;
 
+import java.util.Objects;
+
 public class House extends Facility {
     private String standardRoom;
     private int numberOfFloors;
@@ -35,17 +37,13 @@ public class House extends Facility {
     }
 
     @Override
-    public int hashCode() {
-        return getIdFacility().hashCode();
+    public boolean equals(Object o) {
+        return super.equals(o);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (obj == null || !(obj instanceof House)) {
-            return false;
-        }
-        House house = (House) obj;
-        return this.getIdFacility() == house.getIdFacility();
+    public int hashCode() {
+        return super.hashCode();
     }
 
     public String getData() {

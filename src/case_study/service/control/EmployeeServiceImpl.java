@@ -2,84 +2,84 @@ package case_study.service.control;
 
 import case_study.models.Person.Employee;
 import case_study.service.IService.IEmployeeService;
-import case_study.util.ReadandWrite;
+import case_study.util.ReadAndWrite;
+import case_study.util.Regex;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class EmployeeServiceImpl implements IEmployeeService {
-    Scanner scanner = new Scanner(System.in);
-    private static final String PATH_FILE_EMPLOYEE = "src/case_study/data/Employee.csv";
-    static private List<Employee> employeeList;
+    static Scanner scanner = new Scanner(System.in);
 
-    static {
-        employeeList = new ArrayList<>();
-    }
+    private static final String PATH_FILE_EMPLOYEE = "src/case_study/data/Employee.csv";
+
 
     @Override
+
     public void display() {
-        ReadandWrite.readFileList(PATH_FILE_EMPLOYEE);
+        List<Employee> employeeList;
+        employeeList = ReadAndWrite.readFileList(PATH_FILE_EMPLOYEE);
         for (Employee employee : employeeList) {
-            System.out.printf(employee.toString());
+            System.out.printf(employee.toString() + "\n");
         }
     }
 
     @Override
     public void add() {
+        List<Employee> employeeList = new ArrayList<>();
         System.out.printf("Nhập thông tin theo yêu cầu");
-        System.out.println("\nNhập tên");
+        System.out.println("\nNhập id nhân viên");
+        int id = Integer.parseInt(Regex.inputNumber());
+        System.out.println("Nhập tên");
         String name = scanner.nextLine();
-        System.out.println("Nhập số tuổi");
-        String birthday = scanner.nextLine();
+        String birthday = Regex.inputBirthday();
         System.out.println("Nhập giới tính");
         String sex = scanner.nextLine();
         System.out.println("Nhập chứng minh");
         String idCard = scanner.nextLine();
-        System.out.println("Nhập phone");
-        String phone = scanner.nextLine();
+        String phone = Regex.inputPhone();
         System.out.println("Nhập Email");
-        String email = scanner.nextLine();
+        String email = Regex.inputMail();
         System.out.println("Nhập chức vụ");
         String level = scanner.nextLine();
-        System.out.println("Nhập vị trí");
-        String position = scanner.nextLine();
+        String position = positions();
         System.out.println("Nhập lương");
-        double salary = Double.parseDouble(scanner.nextLine());
-        int id = employeeList.size() + 1;
+        double salary = Double.parseDouble(Regex.inputNumberDouble());
+
         Employee employee = new Employee(id, name, birthday, sex, idCard, phone, email, level, position, salary);
         employeeList.add(employee);
-        ReadandWrite.writeAndReadList(employeeList, PATH_FILE_EMPLOYEE, false);
+        ReadAndWrite.writeList(employeeList, PATH_FILE_EMPLOYEE, true);
         System.out.println("Đã thêm thành công");
 
     }
 
     @Override
     public void edit() {
+        List<Employee> employeeList;
+        employeeList = ReadAndWrite.readFileList(PATH_FILE_EMPLOYEE);
         int checkId = 0;
         System.out.println("Nhập id muốn sửa: ");
-        int inputId = Integer.parseInt(scanner.nextLine());
+        int inputId = Integer.parseInt(Regex.inputNumber());
         for (int i = 0; i < employeeList.size(); i++) {
             if (employeeList.get(i).getId() == inputId) {
                 System.out.println("Nhập tên");
                 String name = scanner.nextLine();
                 System.out.println("Nhập tuổi");
-                String birthday = scanner.nextLine();
+                String birthday = Regex.inputBirthday();
                 System.out.println("Nhập giới tính");
                 String sex = scanner.nextLine();
                 System.out.println("Nhập chứng minh");
                 String idCard = scanner.nextLine();
-                System.out.println("Nhập phone");
-                String phone = scanner.nextLine();
-                System.out.println("Nhập Email");
-                String email = scanner.nextLine();
+                String phone = Regex.inputPhone();
+                String email = Regex.inputMail();
                 System.out.println("Nhập chức vụ");
                 String level = scanner.nextLine();
-                System.out.println("Nhập vị trí");
-                String position = scanner.nextLine();
+//                System.out.println("Nhập vị trí");
+//                String position = scanner.nextLine();
+                String position = positions();
                 System.out.println("Nhập lương");
-                int salary = Integer.parseInt(scanner.nextLine());
-
+                double salary = Double.parseDouble(Regex.inputNumberDouble());
                 employeeList.get(i).setName(name);
                 employeeList.get(i).setBirthday(birthday);
                 employeeList.get(i).setSex(sex);
@@ -93,8 +93,56 @@ public class EmployeeServiceImpl implements IEmployeeService {
                 checkId++;
             }
         }
+
+        ReadAndWrite.writeList(employeeList, PATH_FILE_EMPLOYEE, false);
         if (checkId == 0) {
             System.out.println("Không tìm thấy id");
         }
+    }
+
+    public static String positions() {
+        String temp;
+        boolean check = true;
+        do {
+            System.out.println("Nhập vị trí");
+            System.out.println("1. Lễ tân");
+            System.out.println("2. phục vụ");
+            System.out.println("3. chuyên viên");
+            System.out.println("4. giám sát");
+            System.out.println("5. quản lý");
+            System.out.println("6 .giám đốc");
+            System.out.println("Enter your choose");
+            int choose = Integer.parseInt(scanner.nextLine());
+            switch (choose) {
+                case 1:
+                    temp = "Lễ tân";
+                    check = false;
+                    break;
+                case 2:
+                    temp = "phục vụ";
+                    check = false;
+                    break;
+                case 3:
+                    temp = "chuyên viên";
+                    check = false;
+                    break;
+                case 4:
+                    temp = "giám sát";
+                    check = false;
+                    break;
+                case 5:
+                    temp = "quản lý";
+                    check = false;
+                    break;
+                case 6:
+                    temp = "giám đốc";
+                    check = false;
+                    break;
+                default:
+                    throw new IllegalStateException("Unexpected value: " + choose);
+            }
+        } while (check);
+
+        return temp;
     }
 }

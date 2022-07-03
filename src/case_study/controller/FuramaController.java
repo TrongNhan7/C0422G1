@@ -1,8 +1,6 @@
 package case_study.controller;
 
-import case_study.models.facility.Facility;
 import case_study.service.control.*;
-import case_study.util.ReadandWrite;
 
 import java.util.Scanner;
 
@@ -16,7 +14,7 @@ public class FuramaController {
 
     public static void displayMainMenu() {
         do {
-            System.out.println("------MENU FURAMA------ " +
+            System.out.println("\n------MENU FURAMA------ " +
                     "\n 1. Employee Management" +
                     "\n 2. Customer Management" +
                     "\n 3. Facility Management " +
@@ -24,7 +22,13 @@ public class FuramaController {
                     "\n 5. Management" +
                     "\n 6. Exit");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
+
             switch (choose) {
                 case 1:
                     displayEmployeeManagement();
@@ -52,13 +56,18 @@ public class FuramaController {
 
     public static void displayEmployeeManagement() {
         do {
-            System.out.println("------EMPLOYEE MANAGEMENT------" +
+            System.out.println("\n------EMPLOYEE MANAGEMENT------" +
                     "\n 1. Display list employees" +
                     "\n 2. Add new employee" +
                     "\n 3. Edit employee " +
                     "\n 4. Return main menu");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
             switch (choose) {
                 case 1:
                     employeeService.display();
@@ -80,13 +89,19 @@ public class FuramaController {
 
     public static void displayCustomerManagement() {
         do {
-            System.out.println("------CUSTOMERS MANAGEMENT------" +
+            System.out.println("\n------CUSTOMERS MANAGEMENT------" +
                     "\n 1. Display list customers" +
                     "\n 2. Add new customer" +
                     "\n 3. Edit customer " +
-                    "\n 4. Return main menu");
+                    "\n 4. Return main menu" +
+                    "\n 5. Delete Customer");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
             switch (choose) {
                 case 1:
                     customerService.display();
@@ -100,6 +115,9 @@ public class FuramaController {
                 case 4:
                     displayMainMenu();
                     break;
+                case 5:
+                    customerService.deleteCustomer();
+                    break;
                 default:
                     System.out.printf("You need to choose again\n");
             }
@@ -108,13 +126,18 @@ public class FuramaController {
 
     public static void displayFacilityManagement() {
         do {
-            System.out.println("------FACILITY MANAGEMENT------" +
+            System.out.println("\n------FACILITY MANAGEMENT------" +
                     "\n 1. Display list facility" +
                     "\n 2. Add new facility" +
                     "\n 3. Display list facility maintenance " +
                     "\n 4. Return main menu");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
             switch (choose) {
                 case 1:
                     facilityService.displayFacilityCanUse();
@@ -136,7 +159,7 @@ public class FuramaController {
 
     public static void displayBookingManagement() {
         do {
-            System.out.println("------BOOKING MANAGEMENT------" +
+            System.out.println("\n------BOOKING MANAGEMENT------" +
                     "\n 1. Add new booking" +
                     "\n 2. Display list booking" +
                     "\n 3. Create new constracts " +
@@ -144,22 +167,27 @@ public class FuramaController {
                     "\n 5. Edit contracts" +
                     "\n 6. Return main menu");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
             switch (choose) {
                 case 1:
-
+                    bookingService.add();
                     break;
                 case 2:
-
+                    bookingService.display();
                     break;
                 case 3:
-
+                    contractService.add();
                     break;
                 case 4:
-
+                    contractService.display();
                     break;
                 case 5:
-
+                    contractService.edit();
                     break;
                 case 6:
                     displayMainMenu();
@@ -173,12 +201,17 @@ public class FuramaController {
     public static void displayPromotionManagement() {
         boolean flag = true;
         do {
-            System.out.println("------PROMOTION MANAGEMENT------" +
+            System.out.println("\n------PROMOTION MANAGEMENT------" +
                     "\n 1. Display list customers use service" +
                     "\n 2. Display list customers get voucher" +
                     "\n 3. Return main menu");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            int choose = 0;
+            try {
+                choose = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println("Bạn đã nhập sai định dạng, vui lòng nhập lại");
+            }
             switch (choose) {
                 case 1:
 

@@ -1,9 +1,9 @@
 package case_study.service.control;
 
 import case_study.models.Person.Customer;
-import case_study.models.Person.Employee;
 import case_study.service.IService.ICustomerService;
-import case_study.util.ReadandWrite;
+import case_study.util.ReadAndWrite;
+import case_study.util.Regex;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -11,50 +11,49 @@ import java.util.Scanner;
 
 public class CustomerServiceImpl implements ICustomerService {
     Scanner scanner = new Scanner(System.in);
-    private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
-    static private List<Customer> customerList;
 
-    static {
-        customerList = new LinkedList<>();
-    }
+    private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
+
 
     @Override
     public void display() {
-        ReadandWrite.readFileList(PATH_FILE_CUSTOMER);
+        List<Customer> customerList;
+        customerList = ReadAndWrite.readFileList(PATH_FILE_CUSTOMER);
         for (Customer customer : customerList) {
-            System.out.printf(customer.toString());
+            System.out.printf(customer.toString() + "\n");
         }
     }
 
     @Override
     public void add() {
+        List<Customer> customerList = new LinkedList<>();
         System.out.printf("Nhập thông tin theo yêu cầu");
-        System.out.println("\nNhập tên");
+        System.out.println("\nNhập id nhân viên");
+        int id = Integer.parseInt(Regex.inputNumber());
+        System.out.println("Nhập tên");
         String name = scanner.nextLine();
-        System.out.println("Nhập số tuổi");
-        String birthday = scanner.nextLine();
+        String birthday = Regex.inputBirthday();
         System.out.println("Nhập giới tính");
         String sex = scanner.nextLine();
         System.out.println("Nhập chứng minh");
         String idCard = scanner.nextLine();
-        System.out.println("Nhập phone");
-        String phone = scanner.nextLine();
-        System.out.println("Nhập Email");
-        String email = scanner.nextLine();
+        String phone = Regex.inputPhone();
+        String email = Regex.inputMail();
         System.out.println("Nhập loại khách hàng");
         String customerType = scanner.nextLine();
         System.out.println("Nhập địa chỉ khách hàng");
         String address = scanner.nextLine();
-        int id = customerList.size() + 1;
         Customer customer = new Customer(id, name, birthday, sex, idCard, phone, email, customerType, address);
         customerList.add(customer);
-        ReadandWrite.writeAndReadList(customerList, PATH_FILE_CUSTOMER, false);
+        ReadAndWrite.writeList(customerList, PATH_FILE_CUSTOMER, true);
         System.out.println("Đã thêm thành công");
 
     }
 
     @Override
     public void edit() {
+        List<Customer> customerList;
+        customerList = ReadAndWrite.readFileList(PATH_FILE_CUSTOMER);
         int checkId = 0;
         System.out.println("Nhập id muốn sửa: ");
         int inputId = Integer.parseInt(scanner.nextLine());
@@ -62,16 +61,13 @@ public class CustomerServiceImpl implements ICustomerService {
             if (customerList.get(i).getId() == inputId) {
                 System.out.println("\nNhập tên");
                 String name = scanner.nextLine();
-                System.out.println("Nhập số tuổi");
-                String birthday = scanner.nextLine();
+                String birthday = Regex.inputBirthday();
                 System.out.println("Nhập giới tính");
                 String sex = scanner.nextLine();
                 System.out.println("Nhập chứng minh");
                 String idCard = scanner.nextLine();
-                System.out.println("Nhập phone");
-                String phone = scanner.nextLine();
-                System.out.println("Nhập Email");
-                String email = scanner.nextLine();
+                String phone = Regex.inputPhone();
+                String email = Regex.inputMail();
                 System.out.println("Nhập loại khách hàng");
                 String customerType = scanner.nextLine();
                 System.out.println("Nhập địa chỉ khách hàng");
@@ -89,10 +85,34 @@ public class CustomerServiceImpl implements ICustomerService {
 
                 System.out.println("Cập nhập thành công");
                 checkId++;
+
             }
         }
+        ReadAndWrite.writeList(customerList, PATH_FILE_CUSTOMER, false);
         if (checkId == 0) {
             System.out.println("Không tìm thấy id");
         }
     }
+
+    public void deleteCustomer() {
+        List<Customer> customerList;
+        customerList = ReadAndWrite.readFileList(PATH_FILE_CUSTOMER);
+        for (Customer customer : customerList) {
+            System.out.printf(customer.toString() + "\n");
+        }
+        System.out.println("Nhap ten Customer muon xoa: ");
+        String name = scanner.nextLine();
+        boolean flag = false;
+        for (int i = 0; i < customerList.size(); i++) {
+            if (customerList.get(i).getName().equals(name)) {
+                customerList.remove(i);
+                flag = true;
+            }
+        }
+        if (!flag) {
+            System.out.println("Khong tim thay ten can xoa");
+        }
+        ReadAndWrite.writeList(customerList, PATH_FILE_CUSTOMER, false);
+    }
+
 }

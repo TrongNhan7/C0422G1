@@ -1,6 +1,11 @@
 package case_study.util;
 
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class Regex {
     static Scanner scanner = new Scanner(System.in);
@@ -12,7 +17,11 @@ public class Regex {
     public static final String REGEX_RENTALCOSTS = "^\\d+\\.*\\d*$";
     public static final String REGEX_MAXPEOPLE = "^([1-9]|1[0-9])$";
     public static final String REGEX_FLOORS = "^\\d+$";
+    public static final String REGEX_NUMBER = "^\\d+$";
+    public static final String REGEX_BIRTHDAY = "^([0-2][0-9]|3[0|1])\\/(0[1-9]|1[0-2])\\/\\d{4}$";
+    public static final String REGEX_GMAIL = "^\\w+@(\\w+\\.)+\\w+$";
 
+    public static final String REGEX_PHONE = "^84\\d{8}$";
     public static String regexStr(String temp, String regex, String error) {
         boolean flag = true;
         do {
@@ -25,6 +34,34 @@ public class Regex {
         } while (flag);
         return temp;
     }
+
+
+    public static String regexBirthday(String temp, String regex) {
+        boolean check = true;
+        while (check) {
+            try {
+                if (Pattern.matches(regex, temp)) {
+                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+                    LocalDate age = LocalDate.parse(temp, formatter);
+                    LocalDate now = LocalDate.now();
+                    int current = Period.between(age, now).getYears();
+                    if (current < 100 && current > 18) {
+                        check = false;
+                        break;
+                    } else {
+                        throw new AgeCheckingExeption("Tuổi phải lớn hơn 18 và bé hơn 100");
+                    }
+                } else {
+                    throw new AgeCheckingExeption("Định dạng nhập vào không đúng");
+                }
+            } catch (AgeCheckingExeption e) {
+                System.out.println(e.getMessage());
+                temp = scanner.nextLine();
+            }
+        }
+        return temp;
+    }
+
 
     public static String inputNameService() {
         System.out.println("Nhập tên dịch vụ: ");
@@ -80,8 +117,35 @@ public class Regex {
         System.out.println("Nhập số tầng: ");
         return Regex.regexStr(scanner.nextLine(), REGEX_FLOORS, "Bạn đã nhập sai số tầng!");
     }
+
     public static String inputServiceFree() {
         System.out.println("Nhập dịch vụ miễn phí:");
         return Regex.regexStr(scanner.nextLine(), REGEX_STR, "Bạn đã nhập sai định dạng, tiêu chuẩn phải viết hoa chữ cái đầu");
     }
+
+    public static String inputNumber() {
+        return Regex.regexStr(scanner.nextLine(), REGEX_NUMBER, "Bạn đã nhập sai, xin hãy nhập số!");
+    }
+
+    public static String inputNumberDouble() {
+        return Regex.regexStr(scanner.nextLine(), REGEX_RENTALCOSTS, "Bạn đã nhập sai, xin hãy nhập số!");
+    }
+
+    public static String inputBirthday() {
+        System.out.println("Nhập ngày tháng năm sinh:");
+        return Regex.regexBirthday(scanner.nextLine(), REGEX_BIRTHDAY);
+    }
+
+    public static String inputServiceType() {
+        return Regex.regexStr(scanner.nextLine(), REGEX_STR, "Bạn đã nhập sai định dạng, kiểu dịch vụ phải viết hoa chữ cái đầu");
+    }
+    public static String inputMail() {
+        System.out.println("Nhập mail:");
+        return Regex.regexStr(scanner.nextLine(), REGEX_GMAIL, "Bạn đã nhập sai định dạng");
+    }
+    public static String inputPhone() {
+        System.out.println("Nhập so Phone:");
+        return Regex.regexStr(scanner.nextLine(), REGEX_PHONE, "Bạn đã nhập sai định dạng");
+    }
+
 }

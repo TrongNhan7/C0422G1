@@ -1,5 +1,7 @@
 package case_study.models.facility;
 
+import java.util.Objects;
+
 public abstract class Facility {
     private String idFacility;
     private String nameService;
@@ -75,10 +77,24 @@ public abstract class Facility {
 
     @Override
     public String toString() {
-        return "nameService='" + nameService + '\'' +
+        return idFacility +
+                ", nameService='" + nameService + '\'' +
                 ", areaUse=" + areaUse +
                 ", rentalCosts=" + rentalCosts +
                 ", peopleMax=" + peopleMax +
-                ", rentalType='" + rentalType + '\'' ;
+                ", rentalType='" + rentalType + '\'';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Facility facility = (Facility) o;
+        return Objects.equals(idFacility, facility.idFacility);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(idFacility);
     }
 }
