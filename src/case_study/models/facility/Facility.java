@@ -1,6 +1,7 @@
 package case_study.models.facility;
 
 import java.util.Objects;
+import java.util.StringJoiner;
 
 public abstract class Facility {
     private String idFacility;
@@ -74,6 +75,7 @@ public abstract class Facility {
         return getIdFacility() + "," + getNameService() + "," + getAreaUse() + "," + getRentalCosts() + "," +
                 getPeopleMax() + "," + getRentalType() + ",";
     }
+
 
     @Override
     public String toString() {

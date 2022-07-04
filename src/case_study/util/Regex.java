@@ -22,18 +22,18 @@ public class Regex {
     public static final String REGEX_GMAIL = "^\\w+@(\\w+\\.)+\\w+$";
 
     public static final String REGEX_PHONE = "^84\\d{8}$";
-    public static String regexStr(String temp, String regex, String error) {
-        boolean flag = true;
-        do {
-            if (temp.matches(regex)) {
-                flag = false;
-            } else {
-                System.out.println(error);
-                temp = scanner.nextLine();
-            }
-        } while (flag);
-        return temp;
-    }
+        public static String regexStr(String temp, String regex, String error) {
+            boolean flag = true;
+            do {
+                if (temp.matches(regex)) {
+                    flag = false;
+                } else {
+                    System.out.println(error);
+                    temp = scanner.nextLine();
+                }
+            } while (flag);
+            return temp;
+        }
 
 
     public static String regexBirthday(String temp, String regex) {

@@ -4,6 +4,7 @@ import case_study.models.Person.Employee;
 import case_study.service.IService.IEmployeeService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
+import case_study.util.TypeInformation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -34,15 +35,13 @@ public class EmployeeServiceImpl implements IEmployeeService {
         System.out.println("Nhập tên");
         String name = scanner.nextLine();
         String birthday = Regex.inputBirthday();
-        System.out.println("Nhập giới tính");
-        String sex = scanner.nextLine();
+        String sex = TypeInformation.getTypeSex();
         System.out.println("Nhập chứng minh");
         String idCard = scanner.nextLine();
         String phone = Regex.inputPhone();
         System.out.println("Nhập Email");
         String email = Regex.inputMail();
-        System.out.println("Nhập chức vụ");
-        String level = scanner.nextLine();
+        String level = TypeInformation.getTypeLevel();
         String position = positions();
         System.out.println("Nhập lương");
         double salary = Double.parseDouble(Regex.inputNumberDouble());
@@ -67,14 +66,12 @@ public class EmployeeServiceImpl implements IEmployeeService {
                 String name = scanner.nextLine();
                 System.out.println("Nhập tuổi");
                 String birthday = Regex.inputBirthday();
-                System.out.println("Nhập giới tính");
-                String sex = scanner.nextLine();
+                String sex = TypeInformation.getTypeSex();
                 System.out.println("Nhập chứng minh");
                 String idCard = scanner.nextLine();
                 String phone = Regex.inputPhone();
                 String email = Regex.inputMail();
-                System.out.println("Nhập chức vụ");
-                String level = scanner.nextLine();
+                String level = TypeInformation.getTypeLevel();
 //                System.out.println("Nhập vị trí");
 //                String position = scanner.nextLine();
                 String position = positions();
@@ -101,7 +98,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
     }
 
     public static String positions() {
-        String temp;
+        String temp = "";
         boolean check = true;
         do {
             System.out.println("Nhập vị trí");
@@ -112,34 +109,34 @@ public class EmployeeServiceImpl implements IEmployeeService {
             System.out.println("5. quản lý");
             System.out.println("6 .giám đốc");
             System.out.println("Enter your choose");
-            int choose = Integer.parseInt(scanner.nextLine());
+            String choose = scanner.nextLine();
             switch (choose) {
-                case 1:
+                case "1":
                     temp = "Lễ tân";
                     check = false;
                     break;
-                case 2:
+                case "2":
                     temp = "phục vụ";
                     check = false;
                     break;
-                case 3:
+                case "3":
                     temp = "chuyên viên";
                     check = false;
                     break;
-                case 4:
+                case "4":
                     temp = "giám sát";
                     check = false;
                     break;
-                case 5:
+                case "5":
                     temp = "quản lý";
                     check = false;
                     break;
-                case 6:
+                case "6":
                     temp = "giám đốc";
                     check = false;
                     break;
                 default:
-                    throw new IllegalStateException("Unexpected value: " + choose);
+                    System.out.println("Bạn chọn không đúng thông tin, mời bạn chọn lại");
             }
         } while (check);
 

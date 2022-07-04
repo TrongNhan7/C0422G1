@@ -19,8 +19,6 @@ public class BookingServiceImpl implements IBookingService {
     static Scanner scanner = new Scanner(System.in);
 
 
-
-
     @Override
     public void display() {
         Set<Booking> bookings;
@@ -35,7 +33,18 @@ public class BookingServiceImpl implements IBookingService {
         Map<Facility, Integer> facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
         Set<Booking> bookings;
         bookings = ReadAndWrite.readFileBooking(PATH_FILE_BOOKING);
-        int id = bookings.size() + 1;
+        int id = 0;
+        int max = 0;
+        if (bookings == null) {
+            id = 1;
+        } else {
+            for (Booking booking1 : bookings) {
+                if (booking1.getIdBooking() > max) {
+                    max = booking1.getIdBooking();
+                }
+            }
+        }
+        id = max + 1;
         Customer customer = choosesCustomer();
         Facility facility = choosesFacility();
         LocalDate startDay = null;
@@ -60,10 +69,10 @@ public class BookingServiceImpl implements IBookingService {
         ReadAndWrite.writeFileBooking(bookings, PATH_FILE_BOOKING, false);
         for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
             if (facility.getIdFacility().equals(entry.getKey().getIdFacility())) {
-               facilityMap.put(entry.getKey(),entry.getValue()+1);
+                facilityMap.put(entry.getKey(), entry.getValue() + 1);
             }
         }
-        ReadAndWrite.writeFile(facilityMap,PATH_FILE_FACILITY,false);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
     }
 
 
@@ -96,18 +105,20 @@ public class BookingServiceImpl implements IBookingService {
         Map<Facility, Integer> facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
         System.out.println("Danh sách Facility");
         for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
-            System.out.println(entry.toString());
+            if (entry.getValue() < 5) {
+                System.out.println(entry);
+            }
         }
 
         System.out.println("Nhập Id mã dịch vụ Facility:");
         String id = scanner.nextLine();
         boolean flag = true;
         while (flag) {
-            for (Facility key : facilityMap.keySet()) {
-                if (key.getIdFacility().equals(id)) {
+            for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
+                if (entry.getKey().getIdFacility().equals(id) && entry.getValue() < 5) {
                     flag = false;
                     System.out.println("Nhập mã dịch vụ thành công");
-                    return key;
+                    return entry.getKey();
                 }
             }
             if (flag) {

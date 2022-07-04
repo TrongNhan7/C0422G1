@@ -4,6 +4,7 @@ import case_study.models.Person.Customer;
 import case_study.service.IService.ICustomerService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
+import case_study.util.TypeInformation;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -33,14 +34,12 @@ public class CustomerServiceImpl implements ICustomerService {
         System.out.println("Nhập tên");
         String name = scanner.nextLine();
         String birthday = Regex.inputBirthday();
-        System.out.println("Nhập giới tính");
-        String sex = scanner.nextLine();
+        String sex = TypeInformation.getTypeSex();
         System.out.println("Nhập chứng minh");
         String idCard = scanner.nextLine();
         String phone = Regex.inputPhone();
         String email = Regex.inputMail();
-        System.out.println("Nhập loại khách hàng");
-        String customerType = scanner.nextLine();
+        String customerType = TypeInformation.getTypeCustomer();
         System.out.println("Nhập địa chỉ khách hàng");
         String address = scanner.nextLine();
         Customer customer = new Customer(id, name, birthday, sex, idCard, phone, email, customerType, address);
@@ -62,14 +61,12 @@ public class CustomerServiceImpl implements ICustomerService {
                 System.out.println("\nNhập tên");
                 String name = scanner.nextLine();
                 String birthday = Regex.inputBirthday();
-                System.out.println("Nhập giới tính");
-                String sex = scanner.nextLine();
+                String sex = TypeInformation.getTypeSex();
                 System.out.println("Nhập chứng minh");
                 String idCard = scanner.nextLine();
                 String phone = Regex.inputPhone();
                 String email = Regex.inputMail();
-                System.out.println("Nhập loại khách hàng");
-                String customerType = scanner.nextLine();
+                String customerType = TypeInformation.getTypeCustomer();
                 System.out.println("Nhập địa chỉ khách hàng");
                 String address = scanner.nextLine();
 
