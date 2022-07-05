@@ -3,7 +3,7 @@ package case_study.util;
 import java.util.Scanner;
 
 public class TypeInformation {
-    static Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     public static String getTypeSex() {
         String sex = "";

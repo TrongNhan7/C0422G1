@@ -14,8 +14,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class FacilityServiceImpl implements IFacilityService {
-    static Scanner scanner = new Scanner(System.in);
-    public static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
+    private static Scanner scanner = new Scanner(System.in);
+    private static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
 
 
     @Override

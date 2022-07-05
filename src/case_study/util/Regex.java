@@ -1,39 +1,44 @@
 package case_study.util;
 
+import case_study.models.Person.Employee;
+
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
+import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class Regex {
     static Scanner scanner = new Scanner(System.in);
-    public static final String REGEX_STR = "^[A-Z][a-z]+";
-    public static final String REGEX_VILLA = "^(SVVL)-\\d{4}$";
-    public static final String REGEX_HOUSE = "^(SVHO)-\\d{4}$";
-    public static final String REGEX_ROOM = "^(SVRO)-\\d{4}$";
-    public static final String REGEX_AREA = "^([3-9][0-9]\\.*\\d*|\\d{3,}\\.*\\d*)$";
-    public static final String REGEX_RENTALCOSTS = "^\\d+\\.*\\d*$";
-    public static final String REGEX_MAXPEOPLE = "^([1-9]|1[0-9])$";
-    public static final String REGEX_FLOORS = "^\\d+$";
-    public static final String REGEX_NUMBER = "^\\d+$";
-    public static final String REGEX_BIRTHDAY = "^([0-2][0-9]|3[0|1])\\/(0[1-9]|1[0-2])\\/\\d{4}$";
-    public static final String REGEX_GMAIL = "^\\w+@(\\w+\\.)+\\w+$";
+    private static final String REGEX_STR = "^[A-Z][a-z]+";
+    private static final String REGEX_VILLA = "^(SVVL)-\\d{4}$";
+    private static final String REGEX_HOUSE = "^(SVHO)-\\d{4}$";
+    private static final String REGEX_ROOM = "^(SVRO)-\\d{4}$";
+    private static final String REGEX_AREA = "^([3-9][0-9]\\.*\\d*|\\d{3,}\\.*\\d*)$";
+    private static final String REGEX_RENTALCOSTS = "^\\d+\\.*\\d*$";
+    private static final String REGEX_MAXPEOPLE = "^([1-9]|1[0-9])$";
+    private static final String REGEX_FLOORS = "^\\d+$";
+    private static final String REGEX_NUMBER = "^\\d+$";
+    private static final String REGEX_BIRTHDAY = "^([0-2][0-9]|3[0|1])\\/(0[1-9]|1[0-2])\\/\\d{4}$";
+    private static final String REGEX_GMAIL = "^\\w+@(\\w+\\.)+\\w+$";
 
-    public static final String REGEX_PHONE = "^84\\d{8}$";
-        public static String regexStr(String temp, String regex, String error) {
-            boolean flag = true;
-            do {
-                if (temp.matches(regex)) {
-                    flag = false;
-                } else {
-                    System.out.println(error);
-                    temp = scanner.nextLine();
-                }
-            } while (flag);
-            return temp;
-        }
+    public static final String REGEX_PHONE = "^\\d{10}$";
+    public static final String REGEX_IDCARD = "^([A-Z0-9]{9}|[A-Z0-9]{12})$";
+
+    public static String regexStr(String temp, String regex, String error) {
+        boolean flag = true;
+        do {
+            if (temp.matches(regex)) {
+                flag = false;
+            } else {
+                System.out.println(error);
+                temp = scanner.nextLine();
+            }
+        } while (flag);
+        return temp;
+    }
 
 
     public static String regexBirthday(String temp, String regex) {
@@ -139,13 +144,20 @@ public class Regex {
     public static String inputServiceType() {
         return Regex.regexStr(scanner.nextLine(), REGEX_STR, "Bạn đã nhập sai định dạng, kiểu dịch vụ phải viết hoa chữ cái đầu");
     }
+
     public static String inputMail() {
         System.out.println("Nhập mail:");
         return Regex.regexStr(scanner.nextLine(), REGEX_GMAIL, "Bạn đã nhập sai định dạng");
     }
+
     public static String inputPhone() {
         System.out.println("Nhập so Phone:");
         return Regex.regexStr(scanner.nextLine(), REGEX_PHONE, "Bạn đã nhập sai định dạng");
+    }
+
+    public static String inputIdCard() {
+        System.out.println("Nhập chứng minh:");
+        return Regex.regexStr(scanner.nextLine(), REGEX_IDCARD, "Bạn đã nhập sai định dạng");
     }
 
 }

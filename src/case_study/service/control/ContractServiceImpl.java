@@ -11,11 +11,11 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class ContractServiceImpl implements IContactService {
-    Scanner scanner = new Scanner(System.in);
-    public static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
-    public static final String PATH_FILE_CONTRACT = "src/case_study/data/Contract.csv";
+    private Scanner scanner = new Scanner(System.in);
+    private static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
+    private static final String PATH_FILE_CONTRACT = "src/case_study/data/Contract.csv";
 
-    public static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
+    private static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
     @Override
     public void display() {
         List<Contract> contractList = ReadAndWrite.readFileContract(PATH_FILE_CONTRACT);

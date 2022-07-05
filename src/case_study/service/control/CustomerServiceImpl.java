@@ -1,6 +1,7 @@
 package case_study.service.control;
 
 import case_study.models.Person.Customer;
+import case_study.models.Person.Employee;
 import case_study.service.IService.ICustomerService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
@@ -11,7 +12,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class CustomerServiceImpl implements ICustomerService {
-    Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
 
@@ -27,16 +28,38 @@ public class CustomerServiceImpl implements ICustomerService {
 
     @Override
     public void add() {
-        List<Customer> customerList = new LinkedList<>();
+        List<Customer> customerList;
+        customerList = ReadAndWrite.readFileList(PATH_FILE_CUSTOMER);
         System.out.printf("Nhập thông tin theo yêu cầu");
-        System.out.println("\nNhập id nhân viên");
-        int id = Integer.parseInt(Regex.inputNumber());
-        System.out.println("Nhập tên");
+        int id = 0;
+        int max = 0;
+        if (customerList == null) {
+            id = 1;
+        } else {
+            for (Customer customer : customerList) {
+                if (customer.getId() > max) {
+                    max = customer.getId();
+                }
+            }
+        }
+        id = max + 1;
+        System.out.println("\nNhập tên");
         String name = scanner.nextLine();
         String birthday = Regex.inputBirthday();
         String sex = TypeInformation.getTypeSex();
-        System.out.println("Nhập chứng minh");
-        String idCard = scanner.nextLine();
+        String idCard = null;
+        boolean flag = true;
+        do {
+            idCard = Regex.inputIdCard();
+            for (Customer customer : customerList) {
+                flag = false;
+                if (customer.getIdCard().equals(idCard)) {
+                    System.out.println("Bạn đã nhập trùng IdCard");
+                    flag = true;
+                    break;
+                }
+            }
+        } while (flag);
         String phone = Regex.inputPhone();
         String email = Regex.inputMail();
         String customerType = TypeInformation.getTypeCustomer();
@@ -44,7 +67,7 @@ public class CustomerServiceImpl implements ICustomerService {
         String address = scanner.nextLine();
         Customer customer = new Customer(id, name, birthday, sex, idCard, phone, email, customerType, address);
         customerList.add(customer);
-        ReadAndWrite.writeList(customerList, PATH_FILE_CUSTOMER, true);
+        ReadAndWrite.writeList(customerList, PATH_FILE_CUSTOMER, false);
         System.out.println("Đã thêm thành công");
 
     }
@@ -62,8 +85,19 @@ public class CustomerServiceImpl implements ICustomerService {
                 String name = scanner.nextLine();
                 String birthday = Regex.inputBirthday();
                 String sex = TypeInformation.getTypeSex();
-                System.out.println("Nhập chứng minh");
-                String idCard = scanner.nextLine();
+                String idCard = null;
+                boolean flag = true;
+                do {
+                    idCard = Regex.inputIdCard();
+                    for (Customer customer : customerList) {
+                        flag = false;
+                        if (customer.getIdCard().equals(idCard)) {
+                            System.out.println("Bạn đã nhập trùng IdCard");
+                            flag = true;
+                            break;
+                        }
+                    }
+                } while (flag);
                 String phone = Regex.inputPhone();
                 String email = Regex.inputMail();
                 String customerType = TypeInformation.getTypeCustomer();

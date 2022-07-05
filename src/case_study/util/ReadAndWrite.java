@@ -14,10 +14,10 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class ReadAndWrite {
-    public static final String PATH_FILE_CONTRACT = "src/case_study/data/Contract.csv";
+    private static final String PATH_FILE_CONTRACT = "src/case_study/data/Contract.csv";
     private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
-    public static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
-    public static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
+    private static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
+    private static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
 
 
     public static void writeFile(Map<Facility, Integer> facilityMap, String pathFile, boolean append) {

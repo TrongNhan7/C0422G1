@@ -14,9 +14,9 @@ import java.util.*;
 
 public class BookingServiceImpl implements IBookingService {
     private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
-    public static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
-    public static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
-    static Scanner scanner = new Scanner(System.in);
+    private static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
+    private static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
+    private static Scanner scanner = new Scanner(System.in);
 
 
     @Override
