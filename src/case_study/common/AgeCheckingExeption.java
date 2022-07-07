@@ -1,4 +1,4 @@
-package case_study.util;
+package case_study.common;
 
 public class AgeCheckingExeption extends Exception {
     public AgeCheckingExeption(String message) {

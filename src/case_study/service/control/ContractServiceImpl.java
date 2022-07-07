@@ -16,6 +16,7 @@ public class ContractServiceImpl implements IContactService {
     private static final String PATH_FILE_CONTRACT = "src/case_study/data/Contract.csv";
 
     private static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
+
     @Override
     public void display() {
         List<Contract> contractList = ReadAndWrite.readFileContract(PATH_FILE_CONTRACT);
@@ -32,22 +33,32 @@ public class ContractServiceImpl implements IContactService {
         Set<Booking> temp = ReadAndWrite.readFileBooking(PATH_FILE_TEMP);
 
         List<Contract> contractList = ReadAndWrite.readFileContract(PATH_FILE_CONTRACT);
-        int idContract = contractList.size() + 1;
-
+        int idContract = 0;
+        int max = 0;
+        if (contractList == null) {
+            idContract = 1;
+        } else {
+            for (Contract contract : contractList) {
+                if (contract.getIdContract() > max) {
+                    max = contract.getIdContract();
+                }
+            }
+        }
+        idContract = max + 1;
         Booking bookToContract = bookingQueue.peek();
         Customer customer = bookToContract.getIdCustomer();
 
         System.out.println("Vui lòng nhập số tiền cọc trước:");
-        double depositMoney = Double.parseDouble(scanner.nextLine());
+        double depositMoney = Double.parseDouble(Regex.inputNumberDouble());
         System.out.println("Vui lòng nhập tổng số tiền thanh toán:");
-        double payments = Double.parseDouble(scanner.nextLine());
+        double payments = Double.parseDouble(Regex.inputNumberDouble());
 
         contractList.add(new Contract(idContract, bookToContract, depositMoney, payments, customer));
         ReadAndWrite.writeList(contractList, PATH_FILE_CONTRACT, false);
 
         temp.add(bookToContract);
         bookingSet.remove(bookToContract);
-        ReadAndWrite.writeFileBooking(temp,PATH_FILE_TEMP,false);
+        ReadAndWrite.writeFileBooking(temp, PATH_FILE_TEMP, false);
         ReadAndWrite.writeFileBooking(bookingSet, PATH_FILE_BOOKING, false);
     }
 

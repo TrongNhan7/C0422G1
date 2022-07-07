@@ -9,7 +9,6 @@ import case_study.service.IService.IFacilityService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
 
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -20,6 +19,7 @@ public class FacilityServiceImpl implements IFacilityService {
 
     @Override
     public void addNew() {
+        String choose = null;
         do {
             System.out.println("------Facility------" +
                     "\n 1. Add New Villa" +
@@ -27,18 +27,18 @@ public class FacilityServiceImpl implements IFacilityService {
                     "\n 3. Add New Room " +
                     "\n 4. Back to menu");
             System.out.println("Choose function");
-            int choose = Integer.parseInt(scanner.nextLine());
+            choose = scanner.nextLine();
             switch (choose) {
-                case 1:
+                case "1":
                     addVilla();
                     break;
-                case 2:
+                case "2":
                     addHouse();
                     break;
-                case 3:
+                case "3":
                     addRoom();
                     break;
-                case 4:
+                case "4":
                     FuramaController.displayMainMenu();
                     break;
                 default:
@@ -70,24 +70,25 @@ public class FacilityServiceImpl implements IFacilityService {
 
     private void addVilla() {
         Map<Facility, Integer> facilityMap;
-        String id = Regex.inputIdVilla();
         facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
-        boolean flag = true;
+        String id = Regex.inputIdVilla();
+        boolean flag;
         do {
+            flag = true;
             if (facilityMap.isEmpty()) {
-                break;
+                continue;
             }
             for (Facility key : facilityMap.keySet()) {
-                if (!(key.getIdFacility().equalsIgnoreCase(id))) {
+                if (key.getIdFacility().equalsIgnoreCase(id)) {
                     flag = false;
+                    break;
                 }
             }
-            if (flag) {
+            if (!flag) {
                 System.out.println("Id mã dịch vụ bị trùng vui lòng nhập lại:");
                 id = Regex.inputIdVilla();
             }
-        } while (flag);
-        facilityMap.clear();
+        } while (!flag);
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -97,7 +98,7 @@ public class FacilityServiceImpl implements IFacilityService {
         double areaPool = Double.parseDouble(Regex.inputPool());
         int floor = Integer.parseInt(Regex.inputFloors());
         facilityMap.put(new Villa(id, name, area, rentalCosts, people, rentalType, standard, areaPool, floor), 0);
-        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
         System.out.println("Đã thêm mới house thành công");
     }
 
@@ -120,7 +121,6 @@ public class FacilityServiceImpl implements IFacilityService {
                 id = Regex.inputIdHouse();
             }
         } while (flag);
-        facilityMap.clear();
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -129,12 +129,12 @@ public class FacilityServiceImpl implements IFacilityService {
         String standard = Regex.inputStandard();
         int floor = Integer.parseInt(Regex.inputFloors());
         facilityMap.put(new House(id, name, area, rentalCosts, people, rentalType, standard, floor), 0);
-        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
         System.out.println("Đã thêm mới house thành công");
     }
 
     private void addRoom() {
-        Map<Facility, Integer> facilityMap = new LinkedHashMap<>();
+        Map<Facility, Integer> facilityMap;
         String id = Regex.inputIdRoom();
         facilityMap = ReadAndWrite.readFile(PATH_FILE_FACILITY);
         boolean flag = true;
@@ -152,7 +152,6 @@ public class FacilityServiceImpl implements IFacilityService {
                 id = Regex.inputIdHouse();
             }
         } while (flag);
-        facilityMap.clear();
         String name = Regex.inputNameService();
         double area = Double.parseDouble(Regex.inputArea());
         double rentalCosts = Double.parseDouble(Regex.inputRentalCosts());
@@ -160,7 +159,7 @@ public class FacilityServiceImpl implements IFacilityService {
         String rentalType = Regex.inputRentalType();
         String serviceFree = Regex.inputServiceFree();
         facilityMap.put(new Room(id, name, area, rentalCosts, people, rentalType, serviceFree), 0);
-        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, true);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
         System.out.println("Đã thêm mới house thành công");
     }
 
@@ -172,6 +171,6 @@ public class FacilityServiceImpl implements IFacilityService {
                 facilityMap.replace(entry.getKey(), 0);
             }
         }
-        ReadAndWrite.writeFile(facilityMap,PATH_FILE_FACILITY,false);
+        ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);
     }
 }

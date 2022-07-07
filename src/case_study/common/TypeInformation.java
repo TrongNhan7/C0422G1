@@ -1,4 +1,4 @@
-package case_study.util;
+package case_study.common;
 
 import java.util.Scanner;
 
@@ -104,5 +104,34 @@ public class TypeInformation {
             }
         } while (flag);
         return typeCustomer;
+    }
+    public static String getServiceType() {
+        String serviceType = "";
+        boolean flag = true;
+        do {
+            System.out.println("Chọn giới tính\n" +
+                    "1. Normal\n" +
+                    "2. Vip\n" +
+                    "3. Bay\n");
+            System.out.print("Mời bạn chọn: ");
+            String choose = scanner.nextLine();
+            switch (choose) {
+                case "1":
+                    serviceType = "Normal";
+                    flag = false;
+                    break;
+                case "2":
+                    serviceType = "Vip";
+                    flag = false;
+                    break;
+                case "3":
+                    serviceType = "Bay";
+                    flag = false;
+                    break;
+                default:
+                    System.out.println("Vui lòng chọn lại");
+            }
+        } while (flag);
+        return serviceType;
     }
 }

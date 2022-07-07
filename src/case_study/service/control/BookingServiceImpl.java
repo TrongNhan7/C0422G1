@@ -1,11 +1,14 @@
 package case_study.service.control;
 
+import case_study.common.DateCheckingException;
+import case_study.common.TypeInformation;
 import case_study.models.Person.Customer;
 import case_study.models.booking.Booking;
 import case_study.models.facility.Facility;
 import case_study.service.IService.IBookingService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -49,27 +52,42 @@ public class BookingServiceImpl implements IBookingService {
         Facility facility = choosesFacility();
         LocalDate startDay = null;
         LocalDate endDay = null;
-        boolean flag = true;
-        do {
+
+        while (true) {
             try {
                 System.out.println("Nhập ngày bắt đầu");
                 DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
                 startDay = LocalDate.parse(scanner.nextLine(), formatter);
-                System.out.println("Nhập ngày kết thúc");
-                endDay = LocalDate.parse(scanner.nextLine(), formatter);
+                DateCheckingException.checkDateStart(startDay);
                 break;
             } catch (DateTimeParseException e) {
-                System.out.println("Nhập ngày theo định dạng dd/MM/yyyy");
+                System.err.println("Nhập ngày theo định dạng dd/MM/yyyy");
+            } catch (DateCheckingException e) {
+                System.err.println(e.getMessage());
             }
-        } while (flag);
+        }
+
+        while (true) {
+            try {
+                System.out.println("Nhập ngày kết thúc");
+                DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+                endDay = LocalDate.parse(scanner.nextLine(), formatter);
+                DateCheckingException.checkDateEnd(startDay, endDay);
+                break;
+            } catch (DateTimeParseException e) {
+                System.err.println("Nhập ngày theo định dạng dd/MM/yyyy");
+            } catch (DateCheckingException e) {
+                System.err.println(e.getMessage());
+            }
+        }
 
         System.out.println("Nhập kiểu dịch vụ");
-        String serviceType = Regex.inputServiceType();
+        String serviceType = TypeInformation.getServiceType();
         bookings.add(new Booking(id, startDay, endDay, customer, facility, serviceType));
         ReadAndWrite.writeFileBooking(bookings, PATH_FILE_BOOKING, false);
         for (Map.Entry<Facility, Integer> entry : facilityMap.entrySet()) {
             if (facility.getIdFacility().equals(entry.getKey().getIdFacility())) {
-                facilityMap.put(entry.getKey(), entry.getValue() + 1);
+                facilityMap.replace(entry.getKey(), entry.getValue() + 1);
             }
         }
         ReadAndWrite.writeFile(facilityMap, PATH_FILE_FACILITY, false);

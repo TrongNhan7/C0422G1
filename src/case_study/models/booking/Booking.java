@@ -106,7 +106,7 @@ public class Booking {
                 "idBooking='" + idBooking + '\'' +
                 ", startDay=" + Format.getDateFormatter(startDay) +
                 ", endDay=" + Format.getDateFormatter(endDay) +
-                ", idCustomer=" + idCustomer.getId() +
+                ", Customer{Id= " + idCustomer.getId() + "; Name Customer: " + idCustomer.getName() + "}" +
                 ", idFacility=" + idFacility.getIdFacility() +
                 ", serviceType='" + serviceType + '\'' +
                 '}';

@@ -71,7 +71,7 @@ public abstract class Facility {
         this.rentalType = rentalType;
     }
 
-    public String getData() {
+     public  String getData() {
         return getIdFacility() + "," + getNameService() + "," + getAreaUse() + "," + getRentalCosts() + "," +
                 getPeopleMax() + "," + getRentalType() + ",";
     }
@@ -92,11 +92,11 @@ public abstract class Facility {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Facility facility = (Facility) o;
-        return Objects.equals(idFacility, facility.idFacility);
+        return Objects.equals(nameService, facility.nameService);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(idFacility);
+        return Objects.hash(nameService);
     }
 }

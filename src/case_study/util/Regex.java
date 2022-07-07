@@ -1,12 +1,11 @@
 package case_study.util;
 
-import case_study.models.Person.Employee;
+import case_study.common.AgeCheckingExeption;
+
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -26,6 +25,7 @@ public class Regex {
 
     public static final String REGEX_PHONE = "^\\d{10}$";
     public static final String REGEX_IDCARD = "^([A-Z0-9]{9}|[A-Z0-9]{12})$";
+    private static final String REGEX_NAME = "^[A-Z][a-z]{0,10}(\\s[A-Z][a-z]{0,10}){0,5}$";
 
     public static String regexStr(String temp, String regex, String error) {
         boolean flag = true;
@@ -70,9 +70,12 @@ public class Regex {
 
     public static String inputNameService() {
         System.out.println("Nhập tên dịch vụ: ");
-        return Regex.regexStr(scanner.nextLine(), REGEX_STR, "Bạn đã nhập sai tên dịch vụ!");
+        return Regex.regexStr(scanner.nextLine(), REGEX_NAME, "Bạn đã nhập sai tên dịch vụ, tên ko vượt quá 20 ký tự!");
     }
-
+    public static String inputName() {
+        System.out.println("Nhập tên dịch vụ: ");
+        return Regex.regexStr(scanner.nextLine(), REGEX_NAME, "Bạn đã nhập sai tên định dạng, tên ko vượt quá 20 ký tự!");
+    }
     public static String inputIdVilla() {
         System.out.println("Nhập mã dịch vụ: ");
         return Regex.regexStr(scanner.nextLine(), REGEX_VILLA, "Bạn đã nhập sai mã dịch vụ, Villa là SVVL-XXXX!");

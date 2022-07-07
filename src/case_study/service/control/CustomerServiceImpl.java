@@ -1,11 +1,12 @@
 package case_study.service.control;
 
+import case_study.common.TypeInformation;
 import case_study.models.Person.Customer;
 import case_study.models.Person.Employee;
 import case_study.service.IService.ICustomerService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
-import case_study.util.TypeInformation;
+
 
 import java.util.LinkedList;
 import java.util.List;
@@ -44,7 +45,7 @@ public class CustomerServiceImpl implements ICustomerService {
         }
         id = max + 1;
         System.out.println("\nNhập tên");
-        String name = scanner.nextLine();
+        String name = Regex.inputName();
         String birthday = Regex.inputBirthday();
         String sex = TypeInformation.getTypeSex();
         String idCard = null;
@@ -82,7 +83,7 @@ public class CustomerServiceImpl implements ICustomerService {
         for (int i = 0; i < customerList.size(); i++) {
             if (customerList.get(i).getId() == inputId) {
                 System.out.println("\nNhập tên");
-                String name = scanner.nextLine();
+                String name = Regex.inputName();
                 String birthday = Regex.inputBirthday();
                 String sex = TypeInformation.getTypeSex();
                 String idCard = null;

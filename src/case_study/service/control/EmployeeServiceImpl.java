@@ -1,10 +1,11 @@
 package case_study.service.control;
 
+import case_study.common.TypeInformation;
 import case_study.models.Person.Employee;
 import case_study.service.IService.IEmployeeService;
 import case_study.util.ReadAndWrite;
 import case_study.util.Regex;
-import case_study.util.TypeInformation;
+
 
 import java.util.List;
 import java.util.Scanner;
@@ -43,7 +44,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
         id = max + 1;
         System.out.printf("Nhập thông tin theo yêu cầu");
         System.out.println("\nNhập tên");
-        String name = scanner.nextLine();
+        String name = Regex.inputName();
         String birthday = Regex.inputBirthday();
         String sex = TypeInformation.getTypeSex();
         String idCard = null;
@@ -83,7 +84,7 @@ public class EmployeeServiceImpl implements IEmployeeService {
         for (int i = 0; i < employeeList.size(); i++) {
             if (employeeList.get(i).getId() == inputId) {
                 System.out.println("Nhập tên");
-                String name = scanner.nextLine();
+                String name = Regex.inputName();
                 System.out.println("Nhập tuổi");
                 String birthday = Regex.inputBirthday();
                 String sex = TypeInformation.getTypeSex();

@@ -18,6 +18,7 @@ public class ReadAndWrite {
     private static final String PATH_FILE_CUSTOMER = "src/case_study/data/Customer.csv";
     private static final String PATH_FILE_BOOKING = "src/case_study/data/Booking.csv";
     private static final String PATH_FILE_TEMP = "src/case_study/data/Temp.csv";
+    private static final String PATH_FILE_FACILITY = "src/case_study/data/Facility";
 
 
     public static void writeFile(Map<Facility, Integer> facilityMap, String pathFile, boolean append) {
@@ -171,8 +172,8 @@ public class ReadAndWrite {
         BufferedReader bufferedReader = null;
         String line = "";
         String[] array = null;
-        List<Customer> customers = readFileList("src/case_study/data/Customer.csv");
-        Map<Facility, Integer> facilityIntegerMap = readFile("src/case_study/data/Facility");
+        List<Customer> customers = readFileList(PATH_FILE_CUSTOMER);
+        Map<Facility, Integer> facilityIntegerMap = readFile(PATH_FILE_FACILITY);
         Customer customer = null;
         Facility facility = null;
         try {
@@ -211,7 +212,6 @@ public class ReadAndWrite {
         String line = "";
         String[] array = null;
         List<Customer> customers = readFileList(PATH_FILE_CUSTOMER);
-        Set<Booking> bookings = readFileBooking(PATH_FILE_BOOKING);
         Set<Booking> temp = ReadAndWrite.readFileBooking(PATH_FILE_TEMP);
 
         Customer customer = null;
