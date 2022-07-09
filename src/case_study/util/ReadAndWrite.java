@@ -182,11 +182,11 @@ public class ReadAndWrite {
             while ((line = bufferedReader.readLine()) != null) {
                 if (line.isEmpty()) continue;
                 array = line.split(",");
-                for (int i = 0; i < customers.size(); i++) {
-                    if (customers.get(i).getId() == Integer.parseInt(array[3])) {
-                        customer = customers.get(i);
+                    for (int i = 0; i < customers.size(); i++) {
+                        if (customers.get(i).getId() == Integer.parseInt(array[3])) {
+                            customer = customers.get(i);
+                        }
                     }
-                }
                 for (Map.Entry<Facility, Integer> entry : facilityIntegerMap.entrySet()) {
                     if (entry.getKey().getIdFacility().equals(array[4])) {
                         facility = entry.getKey();

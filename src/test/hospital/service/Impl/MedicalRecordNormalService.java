@@ -1,7 +1,6 @@
 package test.hospital.service.Impl;
 
 
-import case_study.models.Person.Customer;
 import test.hospital.common.InvalidDateCheckException;
 import test.hospital.common.NotFoundMedicalRecordException;
 import test.hospital.models.MedicalRecord;

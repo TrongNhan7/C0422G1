@@ -132,7 +132,7 @@ public class PaymentAccountService implements IBank {
                     throw new NotFoundBankAccountException("Mã sản tài khoản không tồn tại,vui lòng nhập lại");
                 }
             } catch (NotFoundBankAccountException e) {
-                System.out.println(e.getMessage());
+                System.err.println(e.getMessage());
             }
         } while (flag);
         ReadAndWriteBank.writeList(banklist, PATH_FILE_BankAcount, false);
