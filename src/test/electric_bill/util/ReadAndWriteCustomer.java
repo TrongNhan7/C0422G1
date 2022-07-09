@@ -116,7 +116,7 @@ public class ReadAndWriteCustomer {
             while ((line = bufferedReader.readLine()) != null) {
                 if (line.isEmpty()) continue;
                 array = line.split(",");
-                list.add(new Receipt(Integer.parseInt(array[0]), LocalDate.parse(array[1]),
+                list.add(new Receipt(array[0], LocalDate.parse(array[1]),
                         Double.parseDouble(array[2]), Double.parseDouble(array[3]), Double.parseDouble(array[4])));
             }
             bufferedReader.close();
